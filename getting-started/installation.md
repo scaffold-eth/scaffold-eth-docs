@@ -1,4 +1,4 @@
-# Installation
+# 📥 Installation
 
 Getting started with Scaffold-eth is super easy. 
 
@@ -16,7 +16,7 @@ yarn install
 
 The above will clone the Scaffold-eth repository and install the necessary dependencies.
 
-Open the scaffold-eth folder and you will find a folder named `packages` which contains a few sub folders. The most important ones that you should focus on when just starting to work with Scaffold-eth are Hardhat \(which is where you will write your Solidity smart contracts, deploy and test them\) and React-app \(which is where you will build the front-end for your smart contracts\).
+Open the scaffold-eth folder and you will find a folder named `packages` which contains a few sub folders. The most important ones that you should focus on when just starting to work with Scaffold-eth are `Hardhat` \(which is where you will write your Solidity smart contracts, deploy and test them\) and `React-app` \(which is where you will build the front-end for your smart contracts\).
 
 Once you are done, you are ready to start \#buidling!
 

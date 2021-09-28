@@ -1,110 +1,121 @@
 # Table of contents
 
-* [Welcome to Scaffold-eth](README.md)
+* [🏗 Welcome to Scaffold-eth](README.md)
 
 ## Getting Started
 
-* [Installation](getting-started/installation.md)
-* [Quick Start](getting-started/quick-start.md)
+* [📥 Installation](getting-started/installation.md)
+* [🚀 Quick Start](getting-started/quick-start.md)
+* [👩‍🔬 Deploying Your Contracts](getting-started/deploying-your-contracts.md)
+* [🚢 Shipping Your App](getting-started/shipping-your-app.md)
 
-## Solidity
+## Toolkit
 
-* [Learning Solidity](solidity/learning-solidity.md)
-* [Deploying your contracts](solidity/deploying-your-contracts.md)
-
-## React App <a id="react-app-1"></a>
-
-* [Overview](react-app-1/untitled.md)
-* [Providers & Signers](react-app-1/providers.md)
-* [Hooks](react-app-1/hooks.md)
-* [Helpers](react-app-1/helpers.md)
-* [Components](react-app-1/components.md)
-* [UI Library](react-app-1/ui-library.md)
-* [Extras](react-app-1/extras.md)
-
-## Deployment
-
-* [Shipping your App](deployment/shipping-your-app.md)
+* [📚 The Scaffold-eth Stack](toolkit/the-scaffold-eth-stack/README.md)
+  * [🔮 Solidity](toolkit/the-scaffold-eth-stack/solidity.md)
+  * [👷‍♂️ Hardhat](toolkit/the-scaffold-eth-stack/hardhat.md)
+  * [🧰 React](toolkit/the-scaffold-eth-stack/react.md)
+  * [🛠 Ethers](toolkit/the-scaffold-eth-stack/ethers.js.md)
+  * [🐜 Ant Design](toolkit/the-scaffold-eth-stack/ant-design.md)
+* [🧰 Scaffold-eth Tools](toolkit/scaffold-eth-toolbox/README.md)
+  * [🦸‍♀️ Eth-hooks](toolkit/scaffold-eth-toolbox/eth-hooks.md)
+  * [🏺 Eth-components](toolkit/scaffold-eth-toolbox/eth-components.md)
+  * [💁 Eth-services](toolkit/scaffold-eth-toolbox/eth-services.md)
+  * [🏗 Scaffold-eth commands](toolkit/scaffold-eth-toolbox/scaffold-eth-commands.md)
+* [👩‍🏫 How To's and Troubleshooting](toolkit/how-tos-and-troubleshooting/README.md)
+  * [✍️ Providers & Signers](toolkit/how-tos-and-troubleshooting/providers.md)
+  * [⛽️ Cannot Estimate Gas Error](toolkit/how-tos-and-troubleshooting/cannot-estimate-gas-error.md)
+  * [📜 Adding a New Contract](toolkit/how-tos-and-troubleshooting/adding-a-new-contract.md)
+  * [📦 Installing Packages](toolkit/how-tos-and-troubleshooting/extras.md)
 
 ## Infrastructure <a id="infraestructure"></a>
 
-* [Overview](infraestructure/overview.md)
-* [The Graph](infraestructure/the-graph.md)
-* [Tenderly](infraestructure/tenderly.md)
-* [Etherscan](infraestructure/etherscan.md)
-* [RPC](infraestructure/rpc.md)
-* [Blocknative](infraestructure/blocknative.md)
-* [L2 / Sidechain Services](infraestructure/l2-sidechain-services.md)
+* [🦊 Metamask ChainId and Nonce Errors](infraestructure/troubleshooting.md)
+* [🚧 Infrastructure](infraestructure/infrastructure/README.md)
+  * [🗄 The Graph](infraestructure/infrastructure/the-graph.md)
+  * [🔍 Tenderly](infraestructure/infrastructure/tenderly.md)
+  * [🔎 Etherscan](infraestructure/infrastructure/etherscan.md)
+  * [RPC](infraestructure/infrastructure/rpc.md)
+  * [🗃 Blocknative](infraestructure/infrastructure/blocknative.md)
+  * [⚖️ L2 / Sidechain Services](infraestructure/infrastructure/l2-sidechain-services.md)
+
+## Speed run challenge course <a id="challenges"></a>
+
+* [🧙‍♂️ About these challenges](challenges/about-these-challenges.md)
+* [🥩 Decentralized Staking App](challenges/untitled.md)
+* [🏵 Token Vendor](challenges/token-vendor.md)
+* [💰 Multi-sig Wallet - Coming Soon](challenges/multi-sig-wallet-coming-soon.md)
+* [🧙‍♂️ Sign in with web3 - coming soon](challenges/sign-in-with-web3-coming-soon.md)
+* [🔮 Implementing an Oracle - Coming Soon](challenges/implementing-an-oracle-coming-soon.md)
+* [🎨 NFT Marketplace - Coming Soon](challenges/nft-marketplace-coming-soon.md)
+* [📈 Minimum Viable Dex - Coming Soon](challenges/minimum-viable-dex-coming-soon.md)
+* [📊 Defi Lending - Coming Soon](challenges/defi-lending-coming-soon.md)
 
 ## Examples and Tutorials
 
-* [Overview](examples-and-tutorials/overview.md)
-* [🦍 Aave Ape](examples-and-tutorials/aave-ape.md)
-* [⚡️ Aave Flash Loans Intro](examples-and-tutorials/aave-flash-loans-intro.md)
-* [📈 Bonding Curve](examples-and-tutorials/bonding-curve.md)
-* [⛓ ChainLink](examples-and-tutorials/chainlink.md)
-* [🐸 Chainlink 🎲 VRF 🎫 NFT](examples-and-tutorials/chainlink-vrf-nft.md)
-* [📊 DeFi Subgraphs](examples-and-tutorials/defi-subgraphs.md)
-* [😈 Denial of Service](examples-and-tutorials/denial-of-service.md)
-* [💎 Diamond Standard exploration](examples-and-tutorials/diamond-standard-exploration.md)
-* [💰 Emoji Support](examples-and-tutorials/emoji-support.md)
-* [🌐 GTGS Voice Gems](examples-and-tutorials/gtgs-voice-gems.md)
-* [🍯 Honeypot](examples-and-tutorials/honeypot.md)
-* [☠️ Re-entrancy Attack](examples-and-tutorials/reentrancy.md)
-* [👻 Lender](examples-and-tutorials/lender.md)
-* [🌲 Merkle Mint NFTs](examples-and-tutorials/merkle-mint-nfts.md)
-* [💵 Meta-Multi-Sig Wallet](examples-and-tutorials/meta-multi-sig-wallet.md)
-* [👨‍👦Minimal Proxy](examples-and-tutorials/minimal-proxy.md)
-* [💰 Minimum Viable Payment Channel](examples-and-tutorials/minimum-viable-payment-channel.md)
-* [🎨 Nifty.ink](examples-and-tutorials/nifty.ink.md)
-* [🎫 Nifty Viewer](examples-and-tutorials/nifty-viewer.md)
-* [🏷 NFT Auction](examples-and-tutorials/nft-auction.md)
-* [🏷 ✍️ NFT Signature Based Auction](examples-and-tutorials/nft-signature-based-auction.md)
-* [🔴 Optimism 🎟 NFTs](examples-and-tutorials/optimism-nfts.md)
-* [🔴 Optimism Starter Pack](examples-and-tutorials/optimism-starter-pack.md)
-* [👨‍🎤 PunkWallet.io](examples-and-tutorials/punkwallet.io.md)
-* [🎲 Push The Button](examples-and-tutorials/push-the-button.md)
-* [🌱 radwallet.io](examples-and-tutorials/radwallet.io.md)
-* [🏵 rTokens](examples-and-tutorials/rtokens.md)
-* [✍️ Signator.io](examples-and-tutorials/signator.io.md)
-* [🎟 Simple NFT](examples-and-tutorials/simple-nft.md)
-* [🎫 Simple ERC-1155 NFT](examples-and-tutorials/simple-erc-1155-nft.md)
-* [⏳ Simple Stream](examples-and-tutorials/simple-stream.md)
-* [👛 Streaming Meta Multi Sig](examples-and-tutorials/streaming-meta-multi-sig.md)
-* [🐊 Token Allocator](examples-and-tutorials/token-allocator.md)
-* [🦄 Uniswapper](examples-and-tutorials/uniswapper.md)
-* [👨‍🎤 xNFT.io](examples-and-tutorials/xnft.io.md)
-* [🏗 More coming soon!](examples-and-tutorials/more-coming-soon.md)
+* [👀 Overview](examples-and-tutorials/overview.md)
+* [💥 Common Web3 Patterns](examples-and-tutorials/common-web3-patterns/README.md)
+  * [📩 Simple DAO](examples-and-tutorials/common-web3-patterns/simple-dao.md)
+  * [💎 Diamond Standard - Contract Upgradability](examples-and-tutorials/common-web3-patterns/diamond-standard-exploration.md)
+  * [💵 Meta-Multi-Sig Wallet](examples-and-tutorials/common-web3-patterns/meta-multi-sig-wallet.md)
+  * [👨‍👦Minimal Proxy](examples-and-tutorials/common-web3-patterns/minimal-proxy.md)
+  * [💰 Minimum Viable Payment Channel](examples-and-tutorials/common-web3-patterns/minimum-viable-payment-channel.md)
+  * [👨‍🎤 PunkWallet.io](examples-and-tutorials/common-web3-patterns/punkwallet.io.md)
+  * [🎲 Push The Button - Multi-player Turn Based Game](examples-and-tutorials/common-web3-patterns/push-the-button.md)
+  * [🌱 radwallet.io](examples-and-tutorials/common-web3-patterns/radwallet.io.md)
+  * [✍️ Signator.io](examples-and-tutorials/common-web3-patterns/signator.io.md)
+  * [⏳ Simple Stream](examples-and-tutorials/common-web3-patterns/simple-stream.md)
+  * [🐊 Token Allocator](examples-and-tutorials/common-web3-patterns/token-allocator.md)
+  * [👛 Streaming Meta Multi Sig](examples-and-tutorials/common-web3-patterns/streaming-meta-multi-sig.md)
+* [💵 DeFi](examples-and-tutorials/defi/README.md)
+  * [📈 Bonding Curve](examples-and-tutorials/defi/bonding-curve.md)
+  * [🏵 rTokens](examples-and-tutorials/defi/rtokens.md)
+  * [💰 Quadratic Funding](examples-and-tutorials/defi/quadratic-funding.md)
+  * [🦄 Uniswapper](examples-and-tutorials/defi/uniswapper.md)
+  * [👻 Lender](examples-and-tutorials/defi/lender.md)
+  * [⚡️ Aave Flash Loans Intro](examples-and-tutorials/defi/aave-flash-loans-intro.md)
+  * [🦍 Aave Ape](examples-and-tutorials/defi/aave-ape.md)
+  * [📊 DeFi Subgraphs](examples-and-tutorials/defi/defi-subgraphs.md)
+* [🎫 NFTs](examples-and-tutorials/nfts/README.md)
+  * [🎟 Simple NFT](examples-and-tutorials/nfts/simple-nft.md)
+  * [🎫 Simple ERC-1155 NFT](examples-and-tutorials/nfts/simple-erc-1155-nft.md)
+  * [🐸 Chainlink 🎲 VRF 🎫 NFT](examples-and-tutorials/nfts/chainlink-vrf-nft/README.md)
+    * [🌐 GTGS Voice Gems](examples-and-tutorials/nfts/chainlink-vrf-nft/gtgs-voice-gems.md)
+  * [🌲 Merkle Mint NFTs](examples-and-tutorials/nfts/merkle-mint-nfts/README.md)
+    * [🎨 Nifty.ink](examples-and-tutorials/nfts/merkle-mint-nfts/nifty.ink.md)
+  * [🎫 Nifty Viewer](examples-and-tutorials/nfts/nifty-viewer.md)
+  * [🏷 NFT Auction](examples-and-tutorials/nfts/nft-auction.md)
+  * [🏷 ✍️ NFT Signature Based Auction](examples-and-tutorials/nfts/nft-signature-based-auction.md)
+* [🚓 Security](examples-and-tutorials/security/README.md)
+  * [🍯 Honeypot](examples-and-tutorials/security/honeypot.md)
+  * [☠️ Re-entrancy Attack](examples-and-tutorials/security/reentrancy.md)
+  * [😈 Denial of Service](examples-and-tutorials/security/denial-of-service.md)
+* [🚧 Infrastructure](examples-and-tutorials/infrastructure-1/README.md)
+  * [⛓ ChainLink](examples-and-tutorials/infrastructure-1/chainlink.md)
+* [⚖️ Layer 2 and Scaling](examples-and-tutorials/layer-2-and-scaling/README.md)
+  * [🔴 Optimism Starter Pack](examples-and-tutorials/layer-2-and-scaling/optimism-starter-pack.md)
+  * [🔴 Optimism 🎟 NFTs](examples-and-tutorials/layer-2-and-scaling/optimism-nfts.md)
+  * [👨‍🎤 xNFT.io](examples-and-tutorials/layer-2-and-scaling/xnft.io.md)
 
-## Built with Scaffold-eth
+## Community
 
-* [Projects built with Scaffold-eth](built-with-scaffold-eth/overview.md)
-* [👩‍🎨 Nifty.ink](built-with-scaffold-eth/nifty.ink.md)
-* [🧙‍♂️ Instant Wallet](built-with-scaffold-eth/punkwallet.io.md)
-* [🗳 Personal Token Voting](built-with-scaffold-eth/personal-token-voting.md)
-
-## Challenges
-
-* [About these challenges](challenges/about-these-challenges.md)
-* [🥩 Decentralized Staking App](challenges/untitled.md)
-* [🏵 Token Vendor](challenges/token-vendor.md)
-
-## Contributing to Scaffold-eth
-
-* [Overview](contributing-to-scaffold-eth/how-to-contribute-to-scaffold-eth.md)
-* [Submitting an issue](contributing-to-scaffold-eth/submitting-an-issue.md)
-* [Opening a Pull Request](contributing-to-scaffold-eth/opening-a-pull-request.md)
-
-## BuidlGuidl.com
-
-* [Overview](buidlguidl.com/overview.md)
-* [Joining the Guidl](buidlguidl.com/joining-the-guidl.md)
-* [How to submit a build](buidlguidl.com/how-to-submit-a-build.md)
+* [Projects built with Scaffold-eth](community/overview/README.md)
+  * [✍️ Signator.io](community/overview/signator.io-built-with.md)
+  * [🗳 Personal Token Voting](community/overview/personal-token-voting.md)
+  * [🧙‍♂️ Instant Wallet](community/overview/punkwallet.io.md)
+  * [👩‍🎨 Nifty.ink](community/overview/nifty.ink.md)
+* [Contributing to Scaffold-eth](community/how-to-contribute-to-scaffold-eth/README.md)
+  * [Submitting an issue](community/how-to-contribute-to-scaffold-eth/submitting-an-issue.md)
+  * [Opening a Pull Request](community/how-to-contribute-to-scaffold-eth/opening-a-pull-request.md)
+  * [Contributing to the Docs](community/how-to-contribute-to-scaffold-eth/contributing-to-the-docs.md)
+  * [Creating a Challenge or Tutorial](community/how-to-contribute-to-scaffold-eth/creating-a-challenge-or-tutorial.md)
+* [BuidlGuidl.com](community/overview-1/README.md)
+  * [Joining the Guidl](community/overview-1/joining-the-guidl.md)
+  * [How to submit a build](community/overview-1/how-to-submit-a-build.md)
 
 ## Support
 
 * [Getting help](support/getting-help.md)
-* [Troubleshooting](support/troubleshooting.md)
 * [Changelog](support/changelog.md)
 * [Support Scaffold-eth & BuidlGuidl](support/support-scaffold-eth-and-buidlguidl.md)
 

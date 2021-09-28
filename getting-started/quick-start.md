@@ -1,10 +1,10 @@
-# Quick Start
+# 🚀 Quick Start
 
 Now that you have a fresh installation of Scaffold-eth, you are ready to start tinkering with it. Follow this quick start guide to get off the ground! 🚀 
 
 ## Running the starter project
 
-Scaffold-eth comes with a small sample to help you get started and learn what features it offers. There's 3 steps you have to take to get this starter project running, which is something you will always have to do when working with Scaffold-eth \(or when building and testing any a dApp, for that matter\).
+Scaffold-eth comes with a small sample to help you get started and learn what features it offers. There are 3 steps you have to take to get this starter project running, which is something you will always have to do when working with Scaffold-eth \(or when building and testing any a dApp, for that matter\).
 
 ### **Step 1: Start a local network with Hardhat Network**
 

@@ -6,3 +6,7 @@ If you have any Scaffold-eth / React / Ethereum / Solidity or web3 specific ques
 
 **Join our Telegram group here:** [**https://t.me/joinchat/KByvmRe5wkR-8F\_zz6AjpA**](https://t.me/joinchat/KByvmRe5wkR-8F_zz6AjpA)\*\*\*\*
 
+When asking a question in Telegram please be sure to include the branch you are working from so Scaffold-eth maintainers can answer your question more easily. 
+
+
+
