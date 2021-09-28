@@ -4,7 +4,7 @@
 
 In order for Metamask to work with Hardhat Network it must connect to port 8545 and the ChainId must be 31337. Configure the network on Metamask by going to Settings-&gt; Networks.
 
-![](../.gitbook/assets/screen-shot-2021-06-24-at-12.24.22-pm.png)
+![](../../.gitbook/assets/screen-shot-2021-06-24-at-12.24.22-pm.png)
 
 ## Metamask nonce error
 

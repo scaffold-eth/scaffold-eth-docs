@@ -1,6 +1,6 @@
 # 🗃 Blocknative
 
-The [Transactor](../../toolkit/scaffold-eth-toolbox/eth-services.md#transactor) helper uses Blocknative's Notify to show notifications and keep track of our testnet and mainnet transactions.
+The [Transactor](../scaffold-eth-toolbox/eth-services.md#transactor) helper uses Blocknative's Notify to show notifications and keep track of our testnet and mainnet transactions.
 
 You can learn more about Blocknative and Notify here: [https://www.blocknative.com/notify](https://www.blocknative.com/notify)
 

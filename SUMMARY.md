@@ -27,17 +27,14 @@
   * [⛽️ Cannot Estimate Gas Error](toolkit/how-tos-and-troubleshooting/cannot-estimate-gas-error.md)
   * [📜 Adding a New Contract](toolkit/how-tos-and-troubleshooting/adding-a-new-contract.md)
   * [📦 Installing Packages](toolkit/how-tos-and-troubleshooting/extras.md)
-
-## Infrastructure <a id="infraestructure"></a>
-
-* [🦊 Metamask ChainId and Nonce Errors](infraestructure/troubleshooting.md)
-* [🚧 Infrastructure](infraestructure/infrastructure/README.md)
-  * [🗄 The Graph](infraestructure/infrastructure/the-graph.md)
-  * [🔍 Tenderly](infraestructure/infrastructure/tenderly.md)
-  * [🔎 Etherscan](infraestructure/infrastructure/etherscan.md)
-  * [RPC](infraestructure/infrastructure/rpc.md)
-  * [🗃 Blocknative](infraestructure/infrastructure/blocknative.md)
-  * [⚖️ L2 / Sidechain Services](infraestructure/infrastructure/l2-sidechain-services.md)
+  * [🦊 Metamask ChainId and Nonce Errors](toolkit/how-tos-and-troubleshooting/troubleshooting.md)
+* [🚧 Infrastructure](toolkit/infrastructure/README.md)
+  * [🗄 The Graph](toolkit/infrastructure/the-graph.md)
+  * [🔍 Tenderly](toolkit/infrastructure/tenderly.md)
+  * [🔎 Etherscan](toolkit/infrastructure/etherscan.md)
+  * [🔗 RPC](toolkit/infrastructure/rpc.md)
+  * [🗃 Blocknative](toolkit/infrastructure/blocknative.md)
+  * [⚖️ L2 / Sidechain Services](toolkit/infrastructure/l2-sidechain-services.md)
 
 ## Speed run challenge course <a id="challenges"></a>
 

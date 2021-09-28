@@ -28,7 +28,7 @@ yarn ipfs
 Before building your app and shipping it there's a few things you should review to make sure it works as intended.
 
 1. Deploy your contracts to the intended network\(s\). This will generate the contract artifacts for your app to consume. Refer to [this guide](deploying-your-contracts.md) for instructions on how to deploy your contracts with Hardhat deploy.
-2. Verify your contracts on Etherscan. People are \(rightly\) afraid of interacting with an app whose smart contracts' code is not visible. Refer to [this guide](../infraestructure/infrastructure/etherscan.md) on how to streamline this process with Scaffoldd-eth
+2. Verify your contracts on Etherscan. People are \(rightly\) afraid of interacting with an app whose smart contracts' code is not visible. Refer to [this guide](../toolkit/infrastructure/etherscan.md) on how to streamline this process with Scaffoldd-eth
 3. Turn **Debug mode** off to stop printing logs. In line 48 of app.jsx `const DEBUG = false;`
 4. Review `app.jsx` and remove any extra code you are not using. Scaffold-eth comes with many examples on how to subscribe to blocks, fetch gas prices, eth prices, etc. which you might not use but are still making rpc calls to your node.
 5. Make sure the React app is pointing to the selected network. By default Scaffold-eth is set up so the app forces which network it's pointing to. Review _line 45_ of `app.jsx` and change the `targetNetwork` accordingly.

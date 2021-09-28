@@ -4,7 +4,7 @@ description: >-
   Moralis.
 ---
 
-# RPC
+# 🔗 RPC
 
 ### Infura
 
