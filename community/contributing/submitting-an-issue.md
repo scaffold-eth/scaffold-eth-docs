@@ -1,4 +1,4 @@
-# Submitting an issue
+# Submitting An Issue
 
 🏗 Coming soon 🏗 
 
