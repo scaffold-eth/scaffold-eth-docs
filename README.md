@@ -8,8 +8,6 @@ description: "Scaffold-eth is everything you need to get started building decent
 
 Scaffold-eth provides an off-the-shelf stack for rapid prototyping on Ethereum, giving developers access to state-of-the-art tools to quickly learn and ship an Ethereum-based dApp. 
 
-{% embed url="https://youtu.be/ShJZf5lsXiM?t=15" caption="🏃‍♀️3 Min Scafold-eth Speed Run!" %}
-
 {% embed url="https://youtu.be/8P1mIlKGFMs" caption="🤿 Scaffold-eth Deep Dive" %}
 
 ## The Scaffold-eth stack
