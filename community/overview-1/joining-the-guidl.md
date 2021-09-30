@@ -1,4 +1,4 @@
-# Joining the Guidl
+# 🏰 Joining the Guidl
 
-🏗 Coming soon 🏗 
+Build something with Scaffold-eth and then talk to Austin! 
 

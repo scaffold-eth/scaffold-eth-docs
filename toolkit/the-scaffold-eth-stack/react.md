@@ -18,11 +18,11 @@ Complete guide to react - Udemy guide \(low cost, highly effective\): [https://w
 
 📡 Make sure your `targetNetwork` is the same as 👷 HardHat's `defaultNetwork` \(where you deployed your contracts\):
 
-![](../../.gitbook/assets/110500412-68778a80-80b6-11eb-91bd-194d47d62771.png)
+![Set your targetNetwork](../../.gitbook/assets/screen-shot-2021-09-29-at-2.11.46-pm.png)
 
-🤡 Adjust your debugging settings as needed:
+🤡 Adjust your debugging settings as needed along with wether or not you want to use a burner wallet and use the network check switches.
 
-![](../../.gitbook/assets/110499550-95776d80-80b5-11eb-8024-287878b180d5.png)
+![](../../.gitbook/assets/screen-shot-2021-09-29-at-2.07.36-pm.png)
 
 For more information about the React components, helpers, and hooks that come out of the box with Scaffold-eth checkout the React App section. 
 

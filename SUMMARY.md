@@ -17,7 +17,7 @@
   * [🧰 React](toolkit/the-scaffold-eth-stack/react.md)
   * [🛠 Ethers](toolkit/the-scaffold-eth-stack/ethers.js.md)
   * [🐜 Ant Design](toolkit/the-scaffold-eth-stack/ant-design.md)
-* [🧰 Scaffold-eth Tools](toolkit/scaffold-eth-toolbox/README.md)
+* [🧰 Scaffold-eth Tools, Components & Services](toolkit/scaffold-eth-toolbox/README.md)
   * [🦸‍♀️ Eth-hooks](toolkit/scaffold-eth-toolbox/eth-hooks.md)
   * [🏺 Eth-components](toolkit/scaffold-eth-toolbox/eth-components.md)
   * [💁 Eth-services](toolkit/scaffold-eth-toolbox/eth-services.md)
@@ -107,7 +107,7 @@
   * [Contributing to the Docs](community/contributing/contributing-to-the-docs.md)
   * [Creating a Challenge or Tutorial](community/contributing/creating-a-challenge-or-tutorial.md)
 * [BuidlGuidl.com](community/overview-1/README.md)
-  * [Joining the Guidl](community/overview-1/joining-the-guidl.md)
+  * [🏰 Joining the Guidl](community/overview-1/joining-the-guidl.md)
   * [How to submit a build](community/overview-1/how-to-submit-a-build.md)
 
 ## Support

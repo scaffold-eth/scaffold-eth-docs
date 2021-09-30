@@ -9,7 +9,7 @@ First, make sure you have: [Node](https://nodejs.org/dist/latest-v12.x/), [Yarn]
 Open a terminal window and run the following commands:
 
 ```text
-git clone https://github.com/austintgriffith/scaffold-eth.git
+git clone https://github.com/scaffold-eth/scaffold-eth.git
 cd scaffold-eth
 yarn install
 ```
