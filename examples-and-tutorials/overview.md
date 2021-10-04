@@ -9,7 +9,7 @@ They are meant to guide you on your journey to becoming more familiar with Scaff
 These projects are open source and you can expand on them and use them as a base for your own projects as you see fit.
 
 {% hint style="danger" %}
-Be aware that these projects have not been audited in any way and they might contain bugs or vulnerabilities. Exercise extreme caution if deploying them to mainnet. Do your own research!
+Be aware that these projects have not been audited in any way and they might contain bugs 🐞 or vulnerabilities. Exercise extreme caution if deploying them to mainnet. Do your own research!
 {% endhint %}
 
 ## Requesting examples and tutorials
