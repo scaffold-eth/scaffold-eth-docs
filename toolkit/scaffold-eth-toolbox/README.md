@@ -6,9 +6,9 @@ description: Tools, components and services that can be used within Scaffold-Eth
 
 ## Eth-Hooks
 
-[Eth-Hooks v2](https://app.gitbook.com/s/8VVpAokDu5XqCc4SY279/eth-hooks-overview)
+[Eth-Hooks v2](https://app.gitbook.com/s/8VVpAokDu5XqCc4SY279/)
 
-[Eth-Hooks v3](https://app.gitbook.com/o/-McvAUhjwrhDs8exT9Bh/s/2D7c1twywYxZyD6sOEaS/)
+[Eth-Hooks v3](https://docs.scaffoldeth.io/scaffold-eth-libraries/v/eth-hooks-v3-beta/)
 
 ## [Eth-Components](eth-components.md)
 
