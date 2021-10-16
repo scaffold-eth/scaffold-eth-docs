@@ -6,9 +6,9 @@ description: Make micro payments in ETH with signatures over a open session
 
 ## Tutorial Info
 
-**Author:** [Viraz Malhotra](https://github.com/viraj124)  
-**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/payment-channel](https://github.com/austintgriffith/scaffold-eth/tree/payment-channel)  
-**Intended audience:** Intermediate  
+**Author: **[Viraz Malhotra](https://github.com/viraj124)****\
+**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/payment-channel](https://github.com/austintgriffith/scaffold-eth/tree/payment-channel)\
+**Intended audience:** Intermediate\
 **Topics:** Scaffold-eth basics, State Channels
 
 ## 🏃‍♀️ Quick Start
@@ -38,38 +38,38 @@ Let's start our environment for tinkering and exploring how NFT auction would wo
 
 1. Clone the repo first
 
-```text
+```
 git clone -b payment-channel https://github.com/austintgriffith/scaffold-eth.git payment-channel
 cd payment-channel
 ```
 
 1. Install dependencies
 
-```text
+```
 yarn install
 ```
 
 1. Start local chain
 
-```text
+```
 yarn chain
 ```
 
 1. Start your React frontend
 
-```text
+```
 yarn start
 ```
 
 1. Deploy your smart contracts to a local blockchain
 
-```text
+```
 yarn deploy
 ```
 
 1. Start the backend server which is responsible for storing signatures
 
-```text
+```
 yarn backend
 ```
 
@@ -110,4 +110,3 @@ the channel creator can close and withdraw the stream funds too espcially when t
 ### Contact
 
 Join the [telegram support chat 💬](https://t.me/joinchat/KByvmRe5wkR-8F_zz6AjpA) to ask questions and find others building with 🏗 scaffold-eth!
-

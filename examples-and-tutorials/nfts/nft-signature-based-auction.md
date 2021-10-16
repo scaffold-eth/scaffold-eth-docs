@@ -2,16 +2,16 @@
 
 ## Tutorial Info
 
-**Author:** [Temirzhan Yussupov](https://github.com/ironsoul0)  
-**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/signature-nft-auction](https://github.com/austintgriffith/scaffold-eth/tree/signature-nft-auction)  
-**Intended audience:** Intermediate  
+**Author: **[Temirzhan Yussupov](https://github.com/ironsoul0)****\
+**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/signature-nft-auction](https://github.com/austintgriffith/scaffold-eth/tree/signature-nft-auction)\
+**Intended audience:** Intermediate\
 **Topics:** Scaffold-eth basics, NFTs
 
 ## 🏃‍♀️ Quick Start
 
 > Signature based NFT auction with off-chain bidding where the seller commits the highest bid onchain
 
-[![nftsigbased](https://user-images.githubusercontent.com/2653167/118852716-3e99cb80-b890-11eb-90d0-f64036ee60ed.png)](https://www.youtube.com/watch?v=z6_D0phXb8s&t=75s)Table of Contents
+[![nftsigbased](https://user-images.githubusercontent.com/2653167/118852716-3e99cb80-b890-11eb-90d0-f64036ee60ed.png)](https://www.youtube.com/watch?v=z6\_D0phXb8s\&t=75s)Table of Contents
 
 1. [About The Project](https://github.com/austintgriffith/scaffold-eth/tree/signature-nft-auction#about-the-project)
 2. [Speed Run](https://github.com/austintgriffith/scaffold-eth/tree/signature-nft-auction#speed-run)
@@ -35,7 +35,7 @@ We will show you how a simple Signature based NFT auction can be built and also 
 
 #### Prerequisites
 
-You have to know what is an ERC721 standard and what is NFT. Please refer to [this](http://erc721.org/) and [this](https://docs.openzeppelin.com/contracts/4.x/erc721) for more information if you are not familiar with these terms.
+You have to know what is an ERC721 standard and what is NFT. Please refer to [this](http://erc721.org) and [this](https://docs.openzeppelin.com/contracts/4.x/erc721) for more information if you are not familiar with these terms.
 
 #### Installation
 
@@ -43,38 +43,38 @@ Let's start our environment for tinkering and exploring how NFT auction would wo
 
 1. Clone the repo first
 
-```text
+```
 git clone -b signature-nft-auction https://github.com/austintgriffith/scaffold-eth.git nft-auction
 cd nft-auction
 ```
 
 1. Install dependencies
 
-```text
+```
 yarn install
 ```
 
 1. Start local chain
 
-```text
+```
 yarn chain
 ```
 
 1. Start your React frontend
 
-```text
+```
 yarn start
 ```
 
 1. Deploy your smart contracts to a local blockchain
 
-```text
+```
 yarn deploy
 ```
 
 1. The ui currently depends on a json file so to generate that run
 
-```text
+```
 yarn upload
 ```
 
@@ -88,7 +88,7 @@ We are mostly interested in `Auction.sol` smart contract which contains all the 
 
 First of all, note how we are initializing our smart contract using this line.
 
-```text
+```
 contract Auction is IERC721Receiver
 ```
 
@@ -100,7 +100,7 @@ Inheriting from this contract also requires us to paste the implementation of `o
 
 The logic for creating an auction is in `createTokenAuction` function. It takes an address of NFT contract which in our case is an address of `YourCollectible.sol` deployed to our local chain, unique token ID which is going to be sold, minimum bid and duration in seconds.
 
-```text
+```
 ERC721(_nft).safeTransferFrom(owner, address(this), _tokenId);
 tokenToAuction[_nft][_tokenId] = _auction;
 ```
@@ -152,4 +152,3 @@ As you see, after we finished the auction, we are no longer an owner of the NFT.
 ### Contact
 
 Join the [telegram support chat 💬](https://t.me/joinchat/KByvmRe5wkR-8F_zz6AjpA) to ask questions and find others building with 🏗 scaffold-eth!
-

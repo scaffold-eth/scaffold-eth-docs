@@ -1,4 +1,3 @@
 # 🎨 NFT Marketplace - Coming Soon
 
-🏗 Coming soon 🏗 
-
+:construction_site: Coming soon :construction_site: 

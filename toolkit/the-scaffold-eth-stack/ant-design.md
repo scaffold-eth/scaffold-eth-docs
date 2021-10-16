@@ -4,7 +4,7 @@ description: Scaffold-eth ships with Ant.design
 
 # 🐜 Ant Design
 
-🐜 [Ant.design](https://ant.design/components/button/) is a fantastic UI library with components like the [grids](https://ant.design/components/grid/), [menus](https://ant.design/components/menu/), [dates](https://ant.design/components/date-picker/), [times](https://ant.design/components/time-picker/), [buttons](https://ant.design/components/button/), etc.
+:ant: [Ant.design](https://ant.design/components/button/) is a fantastic UI library with components like the [grids](https://ant.design/components/grid/), [menus](https://ant.design/components/menu/), [dates](https://ant.design/components/date-picker/), [times](https://ant.design/components/time-picker/), [buttons](https://ant.design/components/button/), etc.
 
 ## Features
 
@@ -21,9 +21,8 @@ description: Scaffold-eth ships with Ant.design
 
 ## Usage
 
-```text
+```
 import { DatePicker } from 'antd';
 
 ReactDOM.render(<DatePicker />, mountNode);
 ```
-

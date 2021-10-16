@@ -1,52 +1,52 @@
 ---
-description: "Diamond standard in \U0001F3D7 scaffold-eth"
+description: Diamond standard in 🏗 scaffold-eth
 ---
 
 # 💎 Diamond Standard - Contract Upgradability
 
 ## Tutorial Info
 
-**Author:** [Viraz Malhotra](https://github.com/viraj124)  
-**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/diamond-standard](https://github.com/austintgriffith/scaffold-eth/tree/diamond-standard)  
-**Intended audience:** Beginners/Intermediate  
+**Author: **[Viraz Malhotra](https://github.com/viraj124)****\
+**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/diamond-standard](https://github.com/austintgriffith/scaffold-eth/tree/diamond-standard)\
+**Intended audience:** Beginners/Intermediate\
 **Topics:** Scaffold-eth basics, Contract Deployment, Upgradability
 
 ## 🏃‍♀️ Quick Start
 
-```text
+```
 git clone https://github.com/austintgriffith/scaffold-eth.git
 
 cd scaffold-eth
 ```
 
-```text
+```
 yarn install
 ```
 
-```text
+```
 yarn start
 ```
 
 > in a second terminal window:
 
-```text
+```
 cd scaffold-eth
 yarn chain
 ```
 
 > in a third terminal window:
 
-```text
+```
 cd scaffold-eth
 yarn deploy
 ```
 
-[![](https://camo.githubusercontent.com/6482a1d9e5feb383b02b27fbdea94b30ec643e8438386983e55d43b4b698fca0/68747470733a2f2f692e696d6775722e636f6d2f6353304b4854612e706e67)](https://camo.githubusercontent.com/6482a1d9e5feb383b02b27fbdea94b30ec643e8438386983e55d43b4b698fca0/68747470733a2f2f692e696d6775722e636f6d2f6353304b4854612e706e67)  
+[![](https://camo.githubusercontent.com/6482a1d9e5feb383b02b27fbdea94b30ec643e8438386983e55d43b4b698fca0/68747470733a2f2f692e696d6775722e636f6d2f6353304b4854612e706e67)](https://camo.githubusercontent.com/6482a1d9e5feb383b02b27fbdea94b30ec643e8438386983e55d43b4b698fca0/68747470733a2f2f692e696d6775722e636f6d2f6353304b4854612e706e67)\
 
 
 > You can interact with the initial version of the DeFi Facet which demonstrates 2x leverage through v1 Aave Uniswap Market.
 
-[![](https://camo.githubusercontent.com/587e09edaf79e22911049ce164240cb930cc5ef6c95d251187c2086f14023838/68747470733a2f2f692e696d6775722e636f6d2f3264466f307a332e706e67)](https://camo.githubusercontent.com/587e09edaf79e22911049ce164240cb930cc5ef6c95d251187c2086f14023838/68747470733a2f2f692e696d6775722e636f6d2f3264466f307a332e706e67)  
+[![](https://camo.githubusercontent.com/587e09edaf79e22911049ce164240cb930cc5ef6c95d251187c2086f14023838/68747470733a2f2f692e696d6775722e636f6d2f3264466f307a332e706e67)](https://camo.githubusercontent.com/587e09edaf79e22911049ce164240cb930cc5ef6c95d251187c2086f14023838/68747470733a2f2f692e696d6775722e636f6d2f3264466f307a332e706e67)\
 
 
 > A sample defi facet zap transaction on ropsten.
@@ -65,7 +65,7 @@ Before diving into the UI and contracts, I will recommend to go through the [EIP
 
 **Facets**
 
-For demonstration purposes, the current Facet linked with the UI is a DeFi which uses [Aave Uniswap Market](https://docs.aave.com/developers/v/1.0/deployed-contracts/uniswap-market) to leverage 2x by just depositing ETH, and it can be upgraded by redeploying it again\(go through deploy.js in detail\) after changes and choosing the right upgrade action in UI.
+For demonstration purposes, the current Facet linked with the UI is a DeFi which uses [Aave Uniswap Market](https://docs.aave.com/developers/v/1.0/deployed-contracts/uniswap-market) to leverage 2x by just depositing ETH, and it can be upgraded by redeploying it again(go through deploy.js in detail) after changes and choosing the right upgrade action in UI.
 
 The upgrades are done currently by directly calling the Diamond Cut Facet.
 
@@ -78,4 +78,3 @@ The leverage logic is as follows:
 5. swap half of stable coin to eth
 6. add liquidity again to uniswap in same pool
 7. deposit a-uni token again to aave
-

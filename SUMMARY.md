@@ -18,7 +18,6 @@
   * [🛠 Ethers](toolkit/the-scaffold-eth-stack/ethers.js.md)
   * [🐜 Ant Design](toolkit/the-scaffold-eth-stack/ant-design.md)
 * [🧰 Scaffold-eth Tools, Components & Services](toolkit/scaffold-eth-toolbox/README.md)
-  * [🦸‍♀️ Eth-hooks](toolkit/scaffold-eth-toolbox/eth-hooks.md)
   * [🏺 Eth-components](toolkit/scaffold-eth-toolbox/eth-components.md)
   * [💁 Eth-services](toolkit/scaffold-eth-toolbox/eth-services.md)
   * [🏗 Scaffold-eth commands](toolkit/scaffold-eth-toolbox/scaffold-eth-commands.md)
@@ -36,7 +35,7 @@
   * [🗃 Blocknative](toolkit/infrastructure/blocknative.md)
   * [⚖️ L2 / Sidechain Services](toolkit/infrastructure/l2-sidechain-services.md)
 
-## Speed run challenge course <a id="challenges"></a>
+## Speed run challenge course <a href="challenges" id="challenges"></a>
 
 * [🧙‍♂️ About these challenges](challenges/about-these-challenges.md)
 * [🥩 Decentralized Staking App](challenges/untitled.md)
@@ -115,4 +114,3 @@
 * [Getting help](support/getting-help.md)
 * [Changelog](support/changelog.md)
 * [Support Scaffold-eth & BuidlGuidl](support/support-scaffold-eth-and-buidlguidl.md)
-

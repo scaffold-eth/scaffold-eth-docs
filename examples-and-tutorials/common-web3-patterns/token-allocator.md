@@ -8,9 +8,9 @@ description: >-
 
 ## Tutorial Info
 
-**Author:** [Austin Griffith](https://github.com/austintgriffith)  
-**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/new-allocator](https://github.com/austintgriffith/scaffold-eth/tree/new-allocator)  
-**Intended audience:** Intermediate  
+**Author: **[Austin Griffith](https://github.com/austintgriffith)****\
+**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/new-allocator](https://github.com/austintgriffith/scaffold-eth/tree/new-allocator)\
+**Intended audience:** Intermediate\
 **Topics:** Scaffold-eth, ERC-20 token
 
 ## 🏃‍♀️ Quick Start
@@ -23,7 +23,7 @@ description: >-
 
 ## 🐊 Deploying an Allocator:
 
-```text
+```
 git clone https://github.com/austintgriffith/scaffold-eth.git new-allocator
 
 cd new-allocator
@@ -37,17 +37,17 @@ yarn install
 
 create a deployer mnemonic:
 
-```text
+```
 
 yarn generate
 
 ```
 
-\(Fund this address by running `yarn account` and sending ETH to it.\)
+(Fund this address by running `yarn account` and sending ETH to it.)
 
 then deploy your allocator:
 
-```text
+```
 
 yarn deployAllocator
 
@@ -57,7 +57,7 @@ yarn deployAllocator
 
 required: [Node](https://nodejs.org/dist/latest-v12.x/) plus [Yarn](https://classic.yarnpkg.com/en/docs/install/) and [Git](https://git-scm.com/downloads)
 
-```text
+```
 git clone https://github.com/austintgriffith/scaffold-eth.git new-allocator
 
 cd new-allocator
@@ -65,26 +65,26 @@ cd new-allocator
 git checkout new-allocator
 ```
 
-```text
+```
 yarn install
 ```
 
-```text
+```
 yarn start
 ```
 
-If you want to bring up a local chain and work there, edit `hardhat.config.js` and `app.jsxhttps://github.com/austintgriffith/scaffold-eth/tree/simple-nft-example to use` localhost`instead of`mainnet\`.
+If you want to bring up a local chain and work there, edit `hardhat.config.js` and `app.jsxhttps://github.com/austintgriffith/scaffold-eth/tree/simple-nft-example to use `localhost`instead of`mainnet\`.
 
 > in a second terminal window:
 
-```text
+```
 cd scaffold-eth
 yarn chain
 ```
 
 > in a third terminal window:
 
-```text
+```
 cd scaffold-eth
 yarn deploy
 ```
@@ -93,7 +93,7 @@ yarn deploy
 
 💼 Edit your deployment script `deploy.js` in `packages/hardhat/scripts`
 
-📱 Open [http://localhost:3000](http://localhost:3000/) to see the app
+📱 Open [http://localhost:3000](http://localhost:3000) to see the app
 
 **Contracts:**
 
@@ -117,7 +117,7 @@ Edit your token allocations in the deploy script `deploy.js` in `packages/hardha
 
 Then redeploy your contracts:
 
-```text
+```
 yarn deploy
 ```
 
@@ -129,5 +129,4 @@ Use the from in the **Distributions** tab to distribute the token: [![image](htt
 
 Distributions can be called by anyone and they will happen at the defined ratio: [![image](https://user-images.githubusercontent.com/2653167/102408368-b2b30900-3faa-11eb-81f4-b13bae578caa.png)](https://user-images.githubusercontent.com/2653167/102408368-b2b30900-3faa-11eb-81f4-b13bae578caa.png)
 
-Use address\(0\) to distribute ETH: [![image](https://user-images.githubusercontent.com/2653167/102408471-db3b0300-3faa-11eb-914e-25ecc5d1ad58.png)](https://user-images.githubusercontent.com/2653167/102408471-db3b0300-3faa-11eb-914e-25ecc5d1ad58.png)
-
+Use address(0) to distribute ETH: [![image](https://user-images.githubusercontent.com/2653167/102408471-db3b0300-3faa-11eb-914e-25ecc5d1ad58.png)](https://user-images.githubusercontent.com/2653167/102408471-db3b0300-3faa-11eb-914e-25ecc5d1ad58.png)

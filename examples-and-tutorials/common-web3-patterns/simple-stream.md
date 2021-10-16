@@ -8,16 +8,16 @@ description: >-
 
 ## Tutorial Info
 
-**Author:** [Austin Griffith](https://github.com/austintgriffith)  
-**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/simple-stream](https://github.com/austintgriffith/scaffold-eth/tree/simple-stream)  
-**Intended audience:** Beginners/Intermediate  
+**Author: **[Austin Griffith](https://github.com/austintgriffith)****\
+**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/simple-stream](https://github.com/austintgriffith/scaffold-eth/tree/simple-stream)\
+**Intended audience:** Beginners/Intermediate\
 **Topics:** Scaffold-eth basics, ETH Stream
 
 ## 🏃‍♀️ Quick Start
 
 required: [Node](https://nodejs.org/dist/latest-v12.x/) plus [Yarn](https://classic.yarnpkg.com/en/docs/install/) and [Git](https://git-scm.com/downloads)
 
-```text
+```
 git clone https://github.com/austintgriffith/scaffold-eth.git simple-stream
 
 cd simple-stream
@@ -25,24 +25,24 @@ cd simple-stream
 git checkout simple-stream
 ```
 
-```text
+```
 yarn install
 ```
 
-```text
+```
 yarn start
 ```
 
 > in a second terminal window:
 
-```text
+```
 cd scaffold-eth
 yarn chain
 ```
 
 > in a third terminal window:
 
-```text
+```
 cd scaffold-eth
 yarn deploy
 ```
@@ -55,7 +55,7 @@ yarn deploy
 
 😯 The UI is mostly in `ExampleUI.jsx` in `packages/react-app/src/views`
 
-📱 Open [http://localhost:3000](http://localhost:3000/) to see the app
+📱 Open [http://localhost:3000](http://localhost:3000) to see the app
 
 [![image](https://user-images.githubusercontent.com/2653167/117220266-1ad08300-adc4-11eb-9f14-cd794b018299.png)](https://user-images.githubusercontent.com/2653167/117220266-1ad08300-adc4-11eb-9f14-cd794b018299.png)
 
@@ -95,9 +95,8 @@ An initial deposit occurs in the `deploy.js` but you can also depoit using the f
 
 [![image](https://user-images.githubusercontent.com/2653167/117219949-8a923e00-adc3-11eb-8455-e1d4bc5bc829.png)](https://user-images.githubusercontent.com/2653167/117219949-8a923e00-adc3-11eb-8455-e1d4bc5bc829.png)
 
-> ⚠️ You can give yourself $1,000,000 in local ETH using the faucet wallet icon \(bottom left\)
+> ⚠️ You can give yourself $1,000,000 in local ETH using the faucet wallet icon (bottom left)
 
 ### 💬 Support Chat
 
 Join the telegram [support chat 💬](https://t.me/joinchat/KByvmRe5wkR-8F_zz6AjpA) to ask questions and find others building with 🏗 scaffold-eth!
-

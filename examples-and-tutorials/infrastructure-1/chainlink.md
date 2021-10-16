@@ -6,9 +6,9 @@ description: Multiple uses of different chainlink contracts
 
 ## Tutorial Info
 
-**Author:** [pharo.eth](https://twitter.com/Pharo44153106)  
-**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/chainlink-tutorial-1](https://github.com/austintgriffith/scaffold-eth/tree/chainlink-tutorial-1)  
-**Intended audience:** Beginners/Intermediate  
+**Author: **[pharo.eth](https://twitter.com/Pharo44153106)****\
+**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/chainlink-tutorial-1](https://github.com/austintgriffith/scaffold-eth/tree/chainlink-tutorial-1)\
+**Intended audience:** Beginners/Intermediate\
 **Topics:** Scaffold-eth basics, Chainlink, API Integration
 
 ## Getting Started & Setting Up
@@ -40,8 +40,8 @@ You need to fund your account with ETH to deploy on the Kovan network. By runnin
 
 Testnet ETH is available from:
 
-* Kovan:  [https://faucet.kovan.network/](https://faucet.kovan.network/)
-* Rinkeby: [https://faucet.rinkeby.io/](https://faucet.rinkeby.io/)
+* Kovan:  [https://faucet.kovan.network/](https://faucet.kovan.network)
+* Rinkeby: [https://faucet.rinkeby.io/](https://faucet.rinkeby.io)
 
 ```bash
 yarn run account
@@ -67,9 +67,9 @@ When your application starts at http://localhost:3000 you will see your contract
 
 You still need to fund the RandomNumberConsumer contract with LINK so copy the address and send it some test LINK. 
 
- **Side Quest - use deploy.js to fund the contract with LINK after funding deployer account.** 
+** Side Quest - use deploy.js to fund the contract with LINK after funding deployer account. **
 
-* Testnet LINK is available from [https://kovan.chain.link/](https://kovan.chain.link/)
+* Testnet LINK is available from [https://kovan.chain.link/](https://kovan.chain.link)
 
 ![](../../.gitbook/assets/106748778-b0a51800-65f3-11eb-8a57-d6444748ffe9.png)
 
@@ -90,8 +90,6 @@ ToDo: gather the screen shots, show how I designed a dice roll with the RNG resu
 
 
 ### Using Existing Chainlink Jobs
-
-
 
 
 

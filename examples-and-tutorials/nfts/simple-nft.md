@@ -2,9 +2,9 @@
 
 ## Tutorial Info
 
-**Author:** [Hunter Chang](https://github.com/ChangoMan)  
-**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/simple-nft-example](https://github.com/austintgriffith/scaffold-eth/tree/simple-nft-example)  
-**Intended audience:** Beginners/Intermediate  
+**Author: **[Hunter Chang](https://github.com/ChangoMan)****\
+**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/simple-nft-example](https://github.com/austintgriffith/scaffold-eth/tree/simple-nft-example)\
+**Intended audience:** Beginners/Intermediate\
 **Topics:** Scaffold-eth basics, NFTs, IPFS
 
 ## 🏃‍♀️ Quick Start
@@ -17,44 +17,44 @@ Required: [Node](https://nodejs.org/dist/latest-v12.x/) plus [Yarn](https://clas
 git clone https://github.com/austintgriffith/scaffold-eth.git simple-nft-example
 ```
 
-```text
+```
 
 cd simple-nft-example
 
 git checkout simple-nft-example
 ```
 
-```text
+```
 yarn install
 ```
 
-```text
+```
 yarn start
 ```
 
 > in a second terminal window:
 
-```text
+```
 cd simple-nft-example
 yarn chain
 ```
 
 > in a third terminal window:
 
-```text
+```
 cd simple-nft-example
 yarn deploy
 ```
 
-📱 Open [http://localhost:3000](http://localhost:3000/) to see the app
+📱 Open [http://localhost:3000](http://localhost:3000) to see the app
 
-> ✏️ Edit the mint script `mint.js` in `packages/hardhat/scripts` and update the `toAddress` to your frontend address \(wallet address in the top right or localhost:3000\).
+> ✏️ Edit the mint script `mint.js` in `packages/hardhat/scripts` and update the `toAddress` to your frontend address (wallet address in the top right or localhost:3000).
 
 ![](https://user-images.githubusercontent.com/2653167/109536489-03e77a80-7a7b-11eb-8464-4876dc22547c.png)
 
 > in a terminal window run the **mint** script:
 
-```text
+```
 yarn mint
 ```
 
@@ -64,7 +64,7 @@ yarn mint
 
 ![](https://user-images.githubusercontent.com/2653167/109536827-6c365c00-7a7b-11eb-8482-2a7bb33a1bb5.png)
 
-👛 Open an _incognito_ window and navigate to [http://localhost:3000](http://localhost:3000/) \(You'll notice it has a new wallet address\).
+👛 Open an _incognito_ window and navigate to [http://localhost:3000](http://localhost:3000) (You'll notice it has a new wallet address).
 
 ⛽️ Grab some gas for each account using the faucet:
 
@@ -98,13 +98,13 @@ yarn mint
 
 ![](https://user-images.githubusercontent.com/2653167/109537873-a2c0a680-7a7c-11eb-95de-729dbf3399a3.png)
 
-👛 View your deployer address using `yarn account` \(You'll need to fund this account. Hint: use an [instant wallet](https://instantwallet.io/) to fund your account via QR code\)
+👛 View your deployer address using `yarn account` (You'll need to fund this account. Hint: use an [instant wallet](https://instantwallet.io) to fund your account via QR code)
 
 ![](https://user-images.githubusercontent.com/2653167/109537339-ff6f9180-7a7b-11eb-85b0-46cd72311d12.png)
 
 👨‍🎤 Deploy your NFT smart contract:
 
-```text
+```
 yarn deploy
 ```
 
@@ -116,11 +116,11 @@ You should see the correct network in the frontend:
 
 ![](https://user-images.githubusercontent.com/2653167/109539305-655d1880-7a7e-11eb-9385-c169645dc2b5.png)
 
-An instant wallet running on xDAI insired by [xdai.io](https://xdai.io/).
+An instant wallet running on xDAI insired by [xdai.io](https://xdai.io).
 
 🎫 Ready to mint a batch of NFTs for reals?
 
-```text
+```
 yarn mint
 
 await tenderlyVerify(
@@ -131,7 +131,7 @@ await tenderlyVerify(
 
 Make sure your target network is present in the hardhat networks config, then either update the default network in `hardhat.config.js` to your network of choice or run:
 
-```text
+```
 yarn deploy --network NETWORK_OF_CHOICE
 ```
 
@@ -143,23 +143,23 @@ Once verified, they will then be available to view on Tenderly!
 
 ### **🐟 Open Sea**
 
-> Add your contract to OpenSea \( create -&gt; submit NFTs -&gt; "or add an existing contract" \)
+> Add your contract to OpenSea ( create -> submit NFTs -> "or add an existing contract" )
 
-\(It can take a while before they show up, but here is an example:\)
+(It can take a while before they show up, but here is an example:)
 
 [https://testnets.opensea.io/assets/0xc2839329166d3d004aaedb94dde4173651babccf/1](https://testnets.opensea.io/assets/0xc2839329166d3d004aaedb94dde4173651babccf/1)
 
 ### **🔍 Etherscan Contract Verification**
 
-> run `yarn flatten > flat.txt` \(You will need to clean up extra junk at the top and bottom of flat.txt. Sorry, rookie stuff here.\)
+> run `yarn flatten > flat.txt` (You will need to clean up extra junk at the top and bottom of flat.txt. Sorry, rookie stuff here.)
 
-> copy the contents of `flat.txt` to the block explorer and select compiler `v0.6.7` and `Yes` to `Optimization` \(200 runs if anyone asks\)
+> copy the contents of `flat.txt` to the block explorer and select compiler `v0.6.7` and `Yes` to `Optimization` (200 runs if anyone asks)
 
 ![](https://user-images.githubusercontent.com/2653167/109540618-f84a8280-7a7f-11eb-9a34-c239f1271247.png)
 
 ### **🔶 Infura**
 
-> You will need to get a key from [infura.io](https://infura.io/) and paste it into `constants.js` in `packages/react-app/src`:
+> You will need to get a key from [infura.io](https://infura.io) and paste it into `constants.js` in `packages/react-app/src`:
 
 ![](https://user-images.githubusercontent.com/2653167/109541146-b5d57580-7a80-11eb-9f9e-04ea33f5f45a.png)
 
@@ -167,7 +167,7 @@ Once verified, they will then be available to view on Tenderly!
 
 > ⚙️ build and upload your frontend and share the url with your friends...
 
-```text
+```
 # build it:
 
 yarn build
@@ -187,7 +187,6 @@ yarn ipfs
 
 ![](https://user-images.githubusercontent.com/2653167/109540985-7575f780-7a80-11eb-9ebd-39079cc2eb55.png)
 
-> 👩‍❤️‍👨 Share your public url with a friend and ask them for their address to send them a collectible :\)
+> 👩‍❤️‍👨 Share your public url with a friend and ask them for their address to send them a collectible :)
 
 ![](https://user-images.githubusercontent.com/2653167/109542105-df42d100-7a81-11eb-9e3a-7cc1f1ee0fb7.gif)
-

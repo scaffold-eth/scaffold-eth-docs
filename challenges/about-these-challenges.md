@@ -2,5 +2,4 @@
 
 **Challenges** are some fun tasks you can take on to level-up your Scaffold-eth skills. 
 
-🏗 Coming soon 🏗 
-
+:construction_site: Coming soon :construction_site: 

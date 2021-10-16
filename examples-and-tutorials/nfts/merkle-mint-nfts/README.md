@@ -8,14 +8,14 @@ description: >-
 
 ## Tutorial Info
 
-**Author:** [Austin Griffith](https://github.com/austintgriffith)  
-**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/merkle-root-buyer-mints](https://github.com/austintgriffith/scaffold-eth/tree/merkle-root-buyer-mints)  
-**Intended audience:** Beginners/Intermediate  
+**Author: **[Austin Griffith](https://github.com/austintgriffith)****\
+**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/merkle-root-buyer-mints](https://github.com/austintgriffith/scaffold-eth/tree/merkle-root-buyer-mints)\
+**Intended audience:** Beginners/Intermediate\
 **Topics:** Scaffold-eth basics, NFTs, Merkle Tree
 
 ## 🏃‍♀️ Quick Start
 
-Deployer pays around \(0.283719 ETH ~$500 at todays gas and price\) for the initial contract but then NFTs are only minted once a buyer wants them. \(The buyer of the NFT pays the gas to mint. ~$55\)
+Deployer pays around (0.283719 ETH \~$500 at todays gas and price) for the initial contract but then NFTs are only minted once a buyer wants them. (The buyer of the NFT pays the gas to mint. \~$55)
 
 Table of Contents
 
@@ -30,13 +30,13 @@ Table of Contents
 
 ### About The Project
 
-This branch uses the concept of [merkel root](https://www.investopedia.com/terms/m/merkle-root-cryptocurrency.asp#:~:text=A%20Merkle%20root%20is%20a,whole%2C%20undamaged%2C%20and%20unaltered.) to verify on chain NFT minting. So instead of pushing all verfied NFT hashes on-chain which would be quite expensive we generate a merkel root by modifying [these](https://github.com/Uniswap/merkle-distributor/tree/master/src) scripts to make our life easier.
+This branch uses the concept of [merkel root](https://www.investopedia.com/terms/m/merkle-root-cryptocurrency.asp#:\~:text=A%20Merkle%20root%20is%20a,whole%2C%20undamaged%2C%20and%20unaltered.) to verify on chain NFT minting. So instead of pushing all verfied NFT hashes on-chain which would be quite expensive we generate a merkel root by modifying [these](https://github.com/Uniswap/merkle-distributor/tree/master/src) scripts to make our life easier.
 
 ### Getting Started
 
 #### Prerequisites
 
-You have to know what is an ERC721 standard and what is NFT. Please refer to [this](http://erc721.org/) and [this](https://docs.openzeppelin.com/contracts/4.x/erc721) for more information if you are not familiar with these terms.
+You have to know what is an ERC721 standard and what is NFT. Please refer to [this](http://erc721.org) and [this](https://docs.openzeppelin.com/contracts/4.x/erc721) for more information if you are not familiar with these terms.
 
 #### Installation
 
@@ -44,31 +44,31 @@ Let's start our environment for tinkering and exploring how NFT auction would wo
 
 1. Clone the repo first
 
-```text
+```
 git clone https://github.com/austintgriffith/scaffold-eth.git buyer-mints-nft
 ```
 
 1. Install dependencies
 
-```text
+```
 yarn install
 ```
 
 1. Start local chain ina different terminal
 
-```text
+```
 yarn chain
 ```
 
 1. Start your React frontend
 
-```text
+```
 yarn start
 ```
 
 1. Deploy your smart contracts to a local blockchain
 
-```text
+```
 yarn deploy
 ```
 
@@ -84,13 +84,13 @@ All the logic that verifies minting a particular NFT sits here. When you run `ya
 
 `claim` is the main function which a buyer can call and mint a particular nft.
 
-```text
+```
 function claim(uint256 index, string calldata tokenURI, bytes32[] calldata merkleProof)
 ```
 
 These are the arguments passed while sending the transaction, the merkel prrof and index are generated for each NFT at the time of the proof, navigate through this [file](https://github.com/austintgriffith/scaffold-eth/blob/merkle-root-buyer-mints/packages/hardhat/scripts/deploy.js) for more info.
 
-```text
+```
 require(MerkleProof.verify(merkleProof, merkleRoot, node), 'MerkleDistributor: Invalid proof.');
 ```
 
@@ -112,5 +112,4 @@ When you navigate to the react app on your browser you'll see the NFT's for whic
 
 and voilà you see your address as the owner after on-chain verification.
 
-### 
-
+###

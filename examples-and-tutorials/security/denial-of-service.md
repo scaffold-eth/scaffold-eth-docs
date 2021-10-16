@@ -2,9 +2,9 @@
 
 ## Tutorial Info
 
-**Author:** [Temirzhan Yussupov](https://github.com/ironsoul0)  
-**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/denial-of-service-example](https://github.com/austintgriffith/scaffold-eth/tree/denial-of-service-example)  
-**Intended audience:** Intermediate  
+**Author: **[Temirzhan Yussupov](https://github.com/ironsoul0)****\
+**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/denial-of-service-example](https://github.com/austintgriffith/scaffold-eth/tree/denial-of-service-example)\
+**Intended audience:** Intermediate\
 **Topics:** Scaffold-eth basics, Smart Contracts
 
 ## 🏃‍♀️ Quick Start
@@ -42,36 +42,36 @@ Let's start our environment for tinkering and exploring how "DoS attack" works.
 
 1. Clone the repo first
 
-```text
+```
 git clone -b https://github.com/austintgriffith/scaffold-eth.git denial-of-service-example
 cd denial-of-service-example
 ```
 
 1. Install dependencies
 
-```text
+```
 yarn install
 ```
 
 1. Start your React frontend
 
-```text
+```
 yarn start
 ```
 
-1. Spin up your local blockchain using [Hardhat](https://hardhat.org/)
+1. Spin up your local blockchain using [Hardhat](https://hardhat.org)
 
-```text
+```
 yarn chain
 ```
 
 1. Deploy your smart contracts to a local blockchain
 
-```text
+```
 yarn deploy
 ```
 
-**Pro Tip:** Use [tmux](https://linuxize.com/post/getting-started-with-tmux/) to easily start all commands in a single terminal window!
+**Pro Tip: **Use [tmux](https://linuxize.com/post/getting-started-with-tmux/) to easily start all commands in a single terminal window!
 
 This is how it looks like in my terminal:
 
@@ -91,7 +91,7 @@ This smart contract will become unusable once we exploit it.
 
 The logic is pretty straightforward:
 
-```text
+```
 function bid() payable external {
   require(msg.value >= highestBid);
 
@@ -107,7 +107,7 @@ function bid() payable external {
 
 Smart contract immitates auction by keeping track of the highest bid made. If you want to become a `highestBidder` you have to send ETH greater than the previous `highestBid`.
 
-Try to find a way to exploit this contract \(make it unusable\) before reading further.
+Try to find a way to exploit this contract (make it unusable) before reading further.
 
 #### Attack.sol
 
@@ -115,13 +115,13 @@ Our contract for exploitation.
 
 Note that this block of code is commented in the contract.
 
-```text
+```
 function () external payable {
   assert(false);
 }
 ```
 
-Try to guess why :\)
+Try to guess why :)
 
 ### Attack vector
 
@@ -167,7 +167,7 @@ In order to mitigate this attack, we have to `favor pull over push for external 
 
 This is demonstrated nicely in `GoodAuction.sol`. Note how we added a new method `withdrawRefund`. Now we do not depend on any push external calls like sending money back to someone.
 
-```text
+```
 function withdrawRefund() external {
     uint refund = refunds[msg.sender];
     refunds[msg.sender] = 0;
@@ -185,4 +185,3 @@ Using this we are no longer vulnerable!
 ### Contact
 
 Join the [telegram support chat 💬](https://t.me/joinchat/KByvmRe5wkR-8F_zz6AjpA) to ask questions and find others building with 🏗 scaffold-eth!
-

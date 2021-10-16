@@ -1,4 +1,3 @@
 # 📊 Defi Lending - Coming Soon
 
-🏗 Coming soon 🏗 
-
+:construction_site: Coming soon :construction_site: 

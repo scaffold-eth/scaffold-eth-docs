@@ -1,4 +1,3 @@
 # How to submit a build
 
-🏗 Coming soon 🏗 
-
+:construction_site: Coming soon :construction_site: 

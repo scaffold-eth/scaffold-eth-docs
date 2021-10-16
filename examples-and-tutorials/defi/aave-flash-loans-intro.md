@@ -2,9 +2,9 @@
 
 ## Tutorial Info
 
-**Author:** [Temirzhan Yussupov](https://github.com/ironsoul0)  
-**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/simple-nft-example](https://github.com/austintgriffith/scaffold-eth/commits/flash-loans-intro)  
-**Intended audience:** Intermediate  
+**Author: **[Temirzhan Yussupov](https://github.com/ironsoul0)****\
+**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/simple-nft-example](https://github.com/austintgriffith/scaffold-eth/commits/flash-loans-intro)\
+**Intended audience:** Intermediate\
 **Topics:** Scaffold-eth basics, Flash Loans, Aave, Uniswap, Sushiswap, ERC-20
 
 ## About The Project
@@ -31,26 +31,26 @@ Let's start our environment for tinkering and exploring how flash loans work.
 
 **1- Clone the repo first**
 
-```text
+```
 git clone -b flash-loans-intro https://github.com/austintgriffith/scaffold-eth.git flash-loans-intro
 cd flash-loans-intro
 ```
 
 **2- Install dependencies**
 
-```text
+```
 yarn install
 ```
 
 **3- Start your React frontend**
 
-```text
+```
 yarn start
 ```
 
-**4- Fork mainnet and start your local blockhain using** [**Hardhat**](https://hardhat.org/)\*\*\*\*
+**4- Fork mainnet and start your local blockhain using **[**Hardhat**](https://hardhat.org)****
 
-```text
+```
 yarn fork
 ```
 
@@ -58,15 +58,15 @@ yarn fork
 **This step is very important**. We will talk to real addresses of existing contracts on mainnet. Running local blockhain with `yarn chain` **will not work**!
 {% endhint %}
 
-Watch [this video](https://www.youtube.com/watch?v=xcBT4Jmi5TM&feature=youtu.be) to learn more about mainnet forking.
+Watch [this video](https://www.youtube.com/watch?v=xcBT4Jmi5TM\&feature=youtu.be) to learn more about mainnet forking.
 
-5- **Deploy your smart contracts to a local blockchain**
+5-** Deploy your smart contracts to a local blockchain**
 
-```text
+```
 yarn deploy
 ```
 
-**Pro Tip:** Use [tmux](https://linuxize.com/post/getting-started-with-tmux/) to easily start all commands in a single terminal window!
+**Pro Tip: **Use [tmux](https://linuxize.com/post/getting-started-with-tmux/) to easily start all commands in a single terminal window!
 
 If everything worked fine, you have to have something like this opened in your browser:
 
@@ -86,7 +86,7 @@ The most important thing is that we must conform to the `IFlashLoanReceiver` int
 
 That's why we inherit from `FlashLoanReceiverBase`, which conforms to the `IFlashLoanReceiver`.
 
-```text
+```
 contract MyV2FlashLoan is FlashLoanReceiverBase
 ```
 
@@ -94,7 +94,7 @@ For our arbitrage bot, we will use two different ERC20 tokens: `DAI` and `WETH`.
 
 In order to let us trade easily, let's instantiate routers for our exchanges in the contract and create IERC20 interfaces for our tokens.
 
-```text
+```
 sushiswapRouter = IUniswapV2Router02(Constants.SUSHISWAP_ROUTER_ADDRESS);
 uniswapRouter = IUniswapV2Router02(Constants.UNISWAP_ROUTER_ADDRESS);
 
@@ -118,14 +118,14 @@ Core logic for arbitraging is located inside `executeOperation` function in `MyV
 
 Our first trade will swap all our requested DAI for WETH using Uniswap.
 
-```text
+```
 DAI_ERC20.approve(Constants.UNISWAP_ROUTER_ADDRESS, loanSize);
 uniswapRouter.swapExactTokensForTokens(loanSize, 0, path, address(this), block.timestamp + 5);
 ```
 
 Our second trade will swap all our received WETH back to DAI using Sushiswap.
 
-```text
+```
 WETH_ERC20.approve(Constants.SUSHISWAP_ROUTER_ADDRESS, WETHBalance);
 sushiswapRouter.swapExactTokensForTokens(WETHBalance, 0, revPath, address(this), block.timestamp + 5);
 ```
@@ -134,7 +134,7 @@ In theory, if we make right calculations beforehand, we should benefit by doing 
 
 At the end of the contract, we should make sure we approve tokens we requested from Aave and also additional fee.
 
-```text
+```
 uint256 amountOwing = amounts[i].add(premiums[i]);
 IERC20(assets[i]).approve(address(LENDING_POOL), amountOwing);
 ```
@@ -145,7 +145,7 @@ IERC20(assets[i]).approve(address(LENDING_POOL), amountOwing);
 
 If we do not benefit from our trade, our transaction will be reverted and we will be safe.
 
-However, let's make our transaction happen even if do not benefit from our trade \(just for fun and testing\). In order to make this happen, we have to make sure our contract has some DAI beforehand. This DAI will be used to cover all our expenses including fee for Aave.
+However, let's make our transaction happen even if do not benefit from our trade (just for fun and testing). In order to make this happen, we have to make sure our contract has some DAI beforehand. This DAI will be used to cover all our expenses including fee for Aave.
 
 Firstly, copy address of your deployed smart contract `MyV2FlashLoan` and send it `10 DAI` using `Snatch` tab on your website.
 
@@ -171,16 +171,15 @@ Not let's go back to our DAI tab and check how much DAI we have now.
 
 ![image](https://github.com/austintgriffith/scaffold-eth/raw/flash-loans-intro/resources/lost.png)
 
-In my case, my balance went down by 2.6 DAI :\(
+In my case, my balance went down by 2.6 DAI :(
 
 This trade was not optimal and ideally we had to revert it. Obviously, you should do some research before arbitraging some tokens. For the sake of simplicity, we did not do these just to show how arbitraging works.
 
 ## Additional resources
 
 * [Finematics explains Flash Loans](https://www.youtube.com/watch?v=mCJUhnXQ76s) - Nice theory explanation
-* [Furucombo App](https://furucombo.app/) - Flash loans using drag and drop without coding \(!\)
+* [Furucombo App](https://furucombo.app) - Flash loans using drag and drop without coding (!)
 
 ## Contact
 
 Join the [telegram support chat 💬](https://t.me/joinchat/KByvmRe5wkR-8F_zz6AjpA) to ask questions and find others building with 🏗 scaffold-eth!
-

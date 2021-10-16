@@ -2,16 +2,16 @@
 
 ## Tutorial Info
 
-**Author:** [Amogh Jahagirdar](https://github.com/0xamogh)  
-**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/push-the-button-dev](https://github.com/austintgriffith/scaffold-eth/tree/push-the-button-dev)  
-**Intended audience:** Beginners/Intermediate  
+**Author: **[Amogh Jahagirdar](https://github.com/0xamogh)****\
+**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/push-the-button-dev](https://github.com/austintgriffith/scaffold-eth/tree/push-the-button-dev)\
+**Intended audience:** Beginners/Intermediate\
 **Topics:** Scaffold-eth basics, Gaming
 
 ## 🏃‍♀️ Quick Start
 
 > A base template for multiplayer turn-based game on Ethereum...
 
-```text
+```
 git clone https://github.com/austintgriffith/scaffold-eth.git push-the-button-dev
 
 cd push-the-button-dev
@@ -19,33 +19,33 @@ cd push-the-button-dev
 git checkout push-the-button-dev
 ```
 
-```text
+```
 yarn install
 ```
 
-```text
+```
 yarn start
 ```
 
 > in a second terminal window:
 
-```text
+```
 cd push-the-button-dev
 yarn chain
 ```
 
 > in a third terminal window:
 
-```text
+```
 cd push-the-button-dev
 yarn deploy
 ```
 
-📱 Open [http://localhost:3000](http://localhost:3000/) to see the app
+📱 Open [http://localhost:3000](http://localhost:3000) to see the app
 
 What you are seeing right now is the default “push the button template” from `minesweeper.js`
 
-👛 Open an incognito window and navigate to [http://localhost:3000](http://localhost:3000/) \(You'll notice it has a new wallet address\).
+👛 Open an incognito window and navigate to [http://localhost:3000](http://localhost:3000) (You'll notice it has a new wallet address).
 
 ⛽️ Grab some gas for each account using the faucet:
 
@@ -91,13 +91,13 @@ The game here on is pretty straightforward
 
 ![image](https://user-images.githubusercontent.com/2653167/109537873-a2c0a680-7a7c-11eb-95de-729dbf3399a3.png)
 
-👛 View your deployer address using `yarn account` \(You'll need to fund this account. Hint: use an [instant wallet](https://instantwallet.io/) to fund your account via QR code\)
+👛 View your deployer address using `yarn account` (You'll need to fund this account. Hint: use an [instant wallet](https://instantwallet.io) to fund your account via QR code)
 
 ![image](https://user-images.githubusercontent.com/2653167/109537339-ff6f9180-7a7b-11eb-85b0-46cd72311d12.png)
 
 👨‍🎤 Deploy your game:
 
-```text
+```
 yarn deploy
 ```
 
@@ -113,7 +113,7 @@ You should see the correct network in the frontend:
 
 **🐟 Integrate L2 solutions for ETH**
 
-While playing a game, the ETH network often feels slow, integrate a L2 solution like MATIC \(this one’s already done for you, try others\)
+While playing a game, the ETH network often feels slow, integrate a L2 solution like MATIC (this one’s already done for you, try others)
 
 **💰 Redesign the rewards system**
 
@@ -121,7 +121,7 @@ Currently the user gets heavily penalised if he misses a turn, be more kind to y
 
 **🔶 Infura**
 
-> You will need to get a key from [infura.io](https://infura.io/) and paste it into `constants.js` in `packages/react-app/src`:
+> You will need to get a key from [infura.io](https://infura.io) and paste it into `constants.js` in `packages/react-app/src`:
 
 ![image](https://user-images.githubusercontent.com/2653167/109541146-b5d57580-7a80-11eb-9f9e-04ea33f5f45a.png)
 
@@ -129,7 +129,7 @@ Currently the user gets heavily penalised if he misses a turn, be more kind to y
 
 > ⚙️ build and upload your frontend and share the url with your friends...
 
-```text
+```
 # build it:
 
 yarn build
@@ -150,4 +150,3 @@ yarn ipfs
 ![image](https://user-images.githubusercontent.com/2653167/109540985-7575f780-7a80-11eb-9ebd-39079cc2eb55.png)
 
 > 👩‍❤️‍👨 Share your public url with a friend and invite them for a game!!
-

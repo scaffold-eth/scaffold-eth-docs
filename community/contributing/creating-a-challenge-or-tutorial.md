@@ -1,4 +1,3 @@
 # Creating a Challenge or Tutorial
 
-🏗 Coming soon 🏗 
-
+:construction_site: Coming soon :construction_site: 

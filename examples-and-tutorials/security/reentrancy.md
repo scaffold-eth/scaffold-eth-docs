@@ -2,8 +2,8 @@
 
 ## Tutorial Info
 
-**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/simple-nft-example](https://github.com/austintgriffith/scaffold-eth/tree/reentrancy-example)  
-**Intended audience:** Beginners/Intermediate  
+**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/simple-nft-example](https://github.com/austintgriffith/scaffold-eth/tree/reentrancy-example)\
+**Intended audience:** Beginners/Intermediate\
 **Topics:** Scaffold-eth basics, Security
 
 ## Re-entrancy Example
@@ -12,45 +12,45 @@
 
 ## Tutorial Explanation
 
-The re-enterancy contract is vulnerable through its poorly written withdraw\(\) function. Withdraw\_safe\(\) is not. To test the attack do this:
+The re-enterancy contract is vulnerable through its poorly written withdraw() function. Withdraw_safe() is not. To test the attack do this:
 
-**Player 1 \(usually an incognito tab\):**  
-In the re-enterancy contract, Deposit 0.001 ETH \(converted into GWEI by clicking \*\)  
-Verify the amount in the contract is $0.001 \(or whatever the price of ETH is\)
+**Player 1 (usually an incognito tab):**\
+****In the re-enterancy contract, Deposit 0.001 ETH (converted into GWEI by clicking \*)\
+Verify the amount in the contract is $0.001 (or whatever the price of ETH is)
 
-**Player 2 \(attacker\):**  
-In the attacker contract, deposit 0.001 ETH as well.  
-Verify the contract now has $0.002  
-From the attacker contract, withdraw  
+**Player 2 (attacker):**\
+****In the attacker contract, deposit 0.001 ETH as well.\
+Verify the contract now has $0.002\
+From the attacker contract, withdraw\
 Notice the balance of the attacker contract now has 2x the funds it should, and re-enterancy has 0. Also, the Player 1's balance in the contract seems to still be 0.001.
 
-_The takeaway? Follow the checks-effects-interaction pattern in all your functions :\)_
+_The takeaway? Follow the checks-effects-interaction pattern in all your functions :)_
 
 ## Quickstart
 
-```text
+```
 git clone https://github.com/austintgriffith/scaffold-eth.git reentrancy
 cd reentrancy
 git checkout reentrancy-example
 ```
 
-```text
+```
 yarn install
 ```
 
-```text
+```
 yarn start
 ```
 
 > in a second terminal window:
 
-```text
+```
 yarn chain
 ```
 
 > in a third terminal window:
 
-```text
+```
 yarn deploy
 ```
 
@@ -58,7 +58,7 @@ yarn deploy
 
 📝 Edit your frontend `App.jsx` in `packages/react-app/src`
 
-📱 Open [http://localhost:3000](http://localhost:3000/) to see the app
+📱 Open [http://localhost:3000](http://localhost:3000) to see the app
 
 First try interacting with `Reenterancy.sol` directly. You can deposit, check your balance, and withdraw:
 
@@ -83,4 +83,3 @@ Finally, when you withdraw from the `Attacker.sol` it will withdraw once and the
 The `Reenterancy.sol` contract is now empty but the original account that deposited the extra funds _thinks_ they still have a balance:
 
 ![](https://user-images.githubusercontent.com/2653167/104359146-93859980-54cc-11eb-9887-eccfe8cc17ef.png)
-

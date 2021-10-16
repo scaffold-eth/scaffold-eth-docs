@@ -2,9 +2,9 @@
 
 ## Tutorial Info
 
-**Author:** [Temirzhan Yussupov](https://github.com/ironsoul0)  
-**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/honeypot-example](https://github.com/austintgriffith/scaffold-eth/tree/honeypot-example)  
-**Intended audience:** Intermediate  
+**Author: **[Temirzhan Yussupov](https://github.com/ironsoul0)****\
+**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/honeypot-example](https://github.com/austintgriffith/scaffold-eth/tree/honeypot-example)\
+**Intended audience:** Intermediate\
 **Topics:** Scaffold-eth basics, Solidity, Security
 
 ## About The Project
@@ -25,7 +25,7 @@ Let's start our environment for tinkering and exploring how honeypots work.
 
 1. Clone the repo first
 
-```text
+```
 git clone https://github.com/austintgriffith/scaffold-eth.git honeypot-example
 cd honeypot-example
 git checkout honeypot-example
@@ -33,29 +33,29 @@ git checkout honeypot-example
 
 1. Install dependencies
 
-```text
+```
 yarn install
 ```
 
 1. Start your React frontend
 
-```text
+```
 yarn start
 ```
 
-1. Spin up your local blockchain using [Hardhat](https://hardhat.org/)
+1. Spin up your local blockchain using [Hardhat](https://hardhat.org)
 
-```text
+```
 yarn chain
 ```
 
 1. Deploy your smart contracts to a local blockchain
 
-```text
+```
 yarn deploy
 ```
 
-**Pro Tip:** Use [tmux](https://linuxize.com/post/getting-started-with-tmux/) to easily start all commands in a single terminal window!
+**Pro Tip: **Use [tmux](https://linuxize.com/post/getting-started-with-tmux/) to easily start all commands in a single terminal window!
 
 This is how it looks like in my terminal:
 
@@ -75,7 +75,7 @@ This smart contract will be deployed as a bait for a hacker.
 
 Try to read the source code of this contract and if you are familiar with a reentrancy attack, you probably should note that this contract is indeed vulnerable.
 
-```text
+```
 function withdraw(uint _amount) public {
     require(_amount <= balances[msg.sender], "Insufficient funds");
 
@@ -94,7 +94,7 @@ This is exactly the reason for possibility to exploit reentrancy.
 
 However, we have another interesting line at the end of the smart contract:
 
-```text
+```
 honeyPot.log(msg.sender, _amount, "Withdraw");
 ```
 
@@ -104,7 +104,7 @@ Just keep that in mind. We will return to it in a second.
 
 Let's now investigate our main smart contract there. This one will catch our hacker and reveal its address!
 
-```text
+```
 function log(address _caller, uint _amount, string memory _action) public {
     if (equal(_action, "Withdraw")) {
       revert("It's a trap");
@@ -124,7 +124,7 @@ This is exactly the trick we are going to use to fool a hacker.
 
 This contract is a typical exploitation contract for a reentrancy attack. It contains `fallback` function that causes "vulnerable" contract to send us funds again and again..
 
-```text
+```
 fallback() external payable {
     if (address(bank).balance >= target) {
       bank.withdraw(target);
@@ -138,7 +138,7 @@ Once we withdraw money from a bank, our fallback will be called again because ba
 
 So you remember that our Bank has some unusual function call in the end of a `withdraw` method.
 
-```text
+```
 honeyPot.log(msg.sender, _amount, "Withdraw");
 ```
 
@@ -150,7 +150,7 @@ We force bank to execute its withdraw again and again. However, at some point ba
 
 After that, the following lines are executed:
 
-```text
+```
 balances[msg.sender] -= _amount;
 
 honeyPot.log(msg.sender, _amount, "Withdraw");
@@ -188,7 +188,7 @@ However, after we do it, we get an error saying that we `Failed to send the Ethe
 
 Now let's get rid of this `log` line in our `Bank.sol` to make sure that without it the attack works just fine.
 
-```text
+```
 honeyPot.log(msg.sender, _amount, "Withdraw");
 ```
 
@@ -210,4 +210,3 @@ Honeypot is a concept that is used in a wild quite often. Here are some resource
 ## Contact
 
 Join the [telegram support chat 💬](https://t.me/joinchat/KByvmRe5wkR-8F_zz6AjpA) to ask questions and find others building with 🏗 scaffold-eth!
-
