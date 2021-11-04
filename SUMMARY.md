@@ -40,11 +40,11 @@
 * [🧙‍♂️ About these challenges](challenges/about-these-challenges.md)
 * [🥩 Decentralized Staking App](challenges/untitled.md)
 * [🏵 Token Vendor](challenges/token-vendor.md)
+* [📉 Minimum Viable DEX](challenges/minimum-viable-dex.md)
 * [💰 Multi-sig Wallet - Coming Soon](challenges/multi-sig-wallet-coming-soon.md)
 * [🧙‍♂️ Sign in with web3 - coming soon](challenges/sign-in-with-web3-coming-soon.md)
 * [🔮 Implementing an Oracle - Coming Soon](challenges/implementing-an-oracle-coming-soon.md)
 * [🎨 NFT Marketplace - Coming Soon](challenges/nft-marketplace-coming-soon.md)
-* [📈 Minimum Viable Dex - Coming Soon](challenges/minimum-viable-dex-coming-soon.md)
 * [📊 Defi Lending - Coming Soon](challenges/defi-lending-coming-soon.md)
 
 ## Examples and Tutorials
