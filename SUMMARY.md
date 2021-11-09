@@ -21,9 +21,9 @@
   * [🏺 Eth-components](toolkit/scaffold-eth-toolbox/eth-components.md)
   * [💁 Eth-services](toolkit/scaffold-eth-toolbox/eth-services.md)
   * [🏗 Scaffold-eth commands](toolkit/scaffold-eth-toolbox/scaffold-eth-commands.md)
-* [👩‍🏫 How To's and Troubleshooting](toolkit/how-tos-and-troubleshooting/README.md)
-  * [✍️ Providers & Signers](toolkit/how-tos-and-troubleshooting/providers.md)
-  * [⛽️ Cannot Estimate Gas Error](toolkit/how-tos-and-troubleshooting/cannot-estimate-gas-error.md)
+* [👩‍🏫     Troubleshooting](toolkit/how-tos-and-troubleshooting/README.md)
+  * [✍️     Providers & Signers](toolkit/how-tos-and-troubleshooting/providers.md)
+  * [⛽️     Cannot Estimate Gas](toolkit/how-tos-and-troubleshooting/cannot-estimate-gas-error.md)
   * [📜 Adding a New Contract](toolkit/how-tos-and-troubleshooting/adding-a-new-contract.md)
   * [📦 Installing Packages](toolkit/how-tos-and-troubleshooting/extras.md)
   * [🦊 Metamask ChainId and Nonce Errors](toolkit/how-tos-and-troubleshooting/troubleshooting.md)
@@ -37,15 +37,15 @@
 
 ## Speed run challenge course <a href="challenges" id="challenges"></a>
 
-* [🧙‍♂️ About these challenges](challenges/about-these-challenges.md)
+* [🧙‍♂️     About these challenges](challenges/about-these-challenges.md)
+* [🖼    Simple NFT](challenges/simple-nft.md)
 * [🥩 Decentralized Staking App](challenges/untitled.md)
 * [🏵 Token Vendor](challenges/token-vendor.md)
+* [✍️     Multi-Sig](challenges/sign-in-with-web3-coming-soon.md)
+* [🔮 Implementing an Oracle](challenges/implementing-an-oracle-coming-soon.md)
 * [📉 Minimum Viable DEX](challenges/minimum-viable-dex.md)
-* [💰 Multi-sig Wallet - Coming Soon](challenges/multi-sig-wallet-coming-soon.md)
-* [🧙‍♂️ Sign in with web3 - coming soon](challenges/sign-in-with-web3-coming-soon.md)
-* [🔮 Implementing an Oracle - Coming Soon](challenges/implementing-an-oracle-coming-soon.md)
-* [🎨 NFT Marketplace - Coming Soon](challenges/nft-marketplace-coming-soon.md)
-* [📊 Defi Lending - Coming Soon](challenges/defi-lending-coming-soon.md)
+* [🎨 NFT Marketplace](challenges/nft-marketplace-coming-soon.md)
+* [😱 Create a Stream](challenges/create-a-stream.md)
 
 ## Examples and Tutorials
 

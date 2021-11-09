@@ -1,3 +1,7 @@
-# 🎨 NFT Marketplace - Coming Soon
+---
+description: Build an NFT Marketplace 🖼
+---
 
-:construction_site: Coming soon :construction_site: 
+# 🎨 NFT Marketplace
+
+:construction\_site: Coming soon :construction\_site:&#x20;
