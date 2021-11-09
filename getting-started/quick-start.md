@@ -1,6 +1,6 @@
 # 🚀 Quick Start
 
-Now that you have a fresh installation of Scaffold-eth, you are ready to start tinkering with it. Follow this quick start guide to get off the ground! :rocket: 
+Now that you have a fresh installation of Scaffold-eth, you are ready to start tinkering with it. Follow this quick start guide to get off the ground! :rocket:&#x20;
 
 ## Running the starter project
 
@@ -35,13 +35,13 @@ In your browser, open [http://localhost:3000/](http://localhost:3000) to start p
 
 ## What did we do just now?
 
-Read along if you want to know more about what we did just now. 
+Read along if you want to know more about what we did just now.&#x20;
 
 ### 1. Start a local network
 
 Scaffold-eth ships with Hardhat, which as of the date of this writing, it has become development the de facto environment to compile, deploy, test, and debug Ethereum software.
 
-Hardhat comes built-in with Hardhat Network, a local Ethereum network designed for development. 
+Hardhat comes built-in with Hardhat Network, a local Ethereum network designed for development.&#x20;
 
 {% hint style="info" %}
 If you've done Solidity development in the past, Hardhat Network works very similarly to [Ganache](https://www.trufflesuite.com/ganache).
@@ -81,9 +81,9 @@ You can find the smart contract this command deployed in `/packages/hardhat/cont
 
 ### 3. Launch the web app
 
-Now that we have a local network running and our smart contract deployed to it, it's time to see it working. 
+Now that we have a local network running and our smart contract deployed to it, it's time to see it working.&#x20;
 
-Scaffold-eth comes with React and offers a lot of helper components and hooks to make it very easy to connect to a network and start interacting with your smart contracts right away. 
+Scaffold-eth comes with React and offers a lot of helper components and hooks to make it very easy to connect to a network and start interacting with your smart contracts right away.&#x20;
 
 In order to see and interact with the smart contract we just deployed to the Hardhat Network, run the following command in _**yet another new **_terminal window.
 
@@ -100,9 +100,9 @@ The starter project comes with a few pre-made views, but the ones you should foc
 
 **The YourContract section **is using one of the many handy React components Scaffold-eth offers, the `<Contract />` component, which given a contract name you have compiled, it will parse it and create a UI for it exposing all the public variables and methods it has. This is very useful when you want to quickly test your contracts but offers no flexibility in terms of good UX.
 
-In this case, `YourContract.sol` has a `purpose` public string which anyone can change by calling `setPurpose(string)`. 
+In this case, `YourContract.sol` has a `purpose` public string which anyone can change by calling `setPurpose(string)`.&#x20;
 
-**The ExampleUI section** showcases how to build a custom UI around your contract, using many of the different components and hooks Scaffold-eth ships with. 
+**The ExampleUI section** showcases how to build a custom UI around your contract, using many of the different components and hooks Scaffold-eth ships with.&#x20;
 
 ![](../.gitbook/assets/screen-shot-2021-06-24-at-11.39.50-am.png)
 
@@ -111,7 +111,7 @@ In this case, `YourContract.sol` has a `purpose` public string which anyone can 
 ![](../.gitbook/assets/screen-shot-2021-06-24-at-11.40.42-am.png)
 
 {% hint style="success" %}
-Congratulations! You now have a running dApp running locally which can interact with your deployed smart contract. 
+Congratulations! You now have a running dApp running locally which can interact with your deployed smart contract.&#x20;
 {% endhint %}
 
 ### Interacting with your app and contracts
@@ -124,7 +124,7 @@ The reason why you are getting that error is because the account you are "logged
 
 #### Burner Wallets
 
-By default, Scaffold-eth ships with an implementation of burner wallets. You will notice when you start the app that it shows you the account it's currently logged with at the top right of the screen. This comes very handy for quickly iterating as you don't need to use Metamask or some other web3 provider to work with. 
+By default, Scaffold-eth ships with an implementation of burner wallets. You will notice when you start the app that it shows you the account it's currently logged with at the top right of the screen. This comes very handy for quickly iterating as you don't need to use Metamask or some other web3 provider to work with.&#x20;
 
 ![](../.gitbook/assets/screen-shot-2021-06-24-at-11.51.31-am.png)
 
@@ -150,14 +150,14 @@ In this guide we covered the following topics:
 
 Now that we covered the basics of Scaffold-eth, you should try to familiarize yourself with Solidity and the deployment process, as well as with the different components and hooks Scaffold-eth offers. **Here are some ideas:**
 
-* :closed_lock_with_key: Edit your smart contract `YourContract.sol` in `packages/hardhat/contracts`
+* :closed\_lock\_with\_key: Edit your smart contract `YourContract.sol` in `packages/hardhat/contracts`
 * :pencil: Edit your frontend `App.jsx` in `packages/react-app/src`
 * :briefcase: Edit and add your deployment scripts in `packages/hardhat/deploy` - we are using [hardhat-deploy](https://www.npmjs.com/package/hardhat-deploy)
 * :pencil2: Make small changes to `YourContract.sol` and watch your app auto update!
 * :repeat: You can `yarn deploy` any time and get a fresh new contract in the frontend
-* :construction_worker: Look for the [HardHat](https://hardhat.org) console.log() output in the `yarn chain` terminal
+* :construction\_worker: Look for the [HardHat](https://hardhat.org) console.log() output in the `yarn chain` terminal
 * :alembic: Spend some time tinkering with `YourContract.sol`
 
 {% hint style="info" %}
-Don't forget to check the [Examples and Tutorials](../examples-and-tutorials/overview.md) section which has a bunch of tutorials and sample projects built with Scaffold-eth which you can extend or use as a base for your own projects!
+Don't forget to check the [Examples and Tutorials](../examples-branches/overview.md) section which has a bunch of tutorials and sample projects built with Scaffold-eth which you can extend or use as a base for your own projects!
 {% endhint %}
