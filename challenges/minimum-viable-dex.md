@@ -6,6 +6,8 @@ description: Build you own decentralized token exchange!!
 
 [Medium Article](https://medium.com/@austin\_48503/%EF%B8%8F-minimum-viable-exchange-d84f30bd0c90)
 
+### Challenge 5 - Minimum Viable DEX
+
 ## 💡Introduction <a href="27e8" id="27e8"></a>
 
 This first killer app to be built on Ethereum was the token. A standard called ERC20 emerged and now anyone can deploy a token on Ethereum in seconds.
@@ -37,9 +39,9 @@ This tutorial will assume that you have a basic understanding of [web app develo
 In 🛠 [Programming Decentralized Money](https://medium.com/@austin\_48503/programming-decentralized-money-300bacec3a4f) we introduced 🏗 [scaffold-eth](https://github.com/austintgriffith/scaffold-eth). This tutorial will use the `dex` branch of the Ethereum development scaffolding:
 
 ```
-git clone https://github.com/scaffold-eth/scaffold-eth.git app
+git clone https://github.com/scaffold-eth/scaffold-eth-challenges.git app
 cd app
-git checkout challenge-3-dex
+git checkout challenge-5-dex
 yarn install
 ```
 

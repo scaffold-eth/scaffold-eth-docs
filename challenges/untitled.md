@@ -1,6 +1,6 @@
 # 🥩 Decentralized Staking App
 
-## Challenge 1: Decentralized Staking App
+### Challenge 2: Decentralized Staking App
 
 > 🏦 Build a `Staker.sol` contract that collects **ETH** from numerous addresses using a payable `stake()` function and keeps track of `balances`. After some `deadline` if it has at least some `threshold` of ETH, it sends it to an `ExampleExternalContract` and triggers the `complete()` action sending the full balance. If not enough **ETH** is collected, allow users to `withdraw()`.
 
@@ -12,8 +12,8 @@
 
 ### Checkpoint 0: 📦 install 📚
 
-```text
-git clone https://github.com/austintgriffith/scaffold-eth.git challenge-1-decentralized-staking
+```
+git clone https://github.com/scaffold-eth/scaffold-eth-challenges.git challenge-1-decentralized-staking
 cd challenge-1-decentralized-staking
 git checkout challenge-1-decentralized-staking
 yarn install
@@ -23,11 +23,11 @@ yarn install
 
 You'll have three terminals open, one each for:
 
-`yarn start` \(react app frontend\)
+`yarn start` (react app frontend)
 
-`yarn chain` \(hardhat backend\)
+`yarn chain` (hardhat backend)
 
-`yarn deploy` \(to compile, deploy, and publish your contracts to the frontend\)
+`yarn deploy` (to compile, deploy, and publish your contracts to the frontend)
 
 > 👩‍💻 Rerun `yarn deploy` whenever you want to deploy new contracts to the frontend.
 
@@ -37,13 +37,13 @@ You'll have three terminals open, one each for:
 
 You'll need to track individual `balances` using a mapping:
 
-```text
+```
 mapping ( address => uint256 ) public balances;
 ```
 
 And also track a constant `threshold` at `1 ether`
 
-```text
+```
 uint256 public constant threshold = 1 ether;
 ```
 
@@ -51,15 +51,15 @@ uint256 public constant threshold = 1 ether;
 
 #### **🥅 Goals**
 
-*  Do you see the balance of the `Staker` contract go up when you `stake()`?
-*  Is your `balance` correctly tracked?
-*  Do you see the events in the `Staker UI` tab?
+* &#x20;Do you see the balance of the `Staker` contract go up when you `stake()`?
+* &#x20;Is your `balance` correctly tracked?
+* &#x20;Do you see the events in the `Staker UI` tab?
 
 ### Checkpoint 3: 🔬 Testing ⏱
 
 Set a `deadline` of `now + 30 seconds`
 
-```text
+```
 uint256 public deadline = now + 30 seconds;
 ```
 
@@ -67,7 +67,7 @@ uint256 public deadline = now + 30 seconds;
 
 Hint: If the `address(this).balance` of the contract is over the `threshold` by the `deadline`, you will want to call: `exampleExternalContract.complete{value: address(this).balance}()`
 
-\(You'll have 30 seconds after deploying until the deadline is reached\)
+(You'll have 30 seconds after deploying until the deadline is reached)
 
 > 👩‍💻 Create a `timeLeft()` function including `public view returns (uint256)` that returns how much time is left.
 
@@ -79,21 +79,21 @@ Hint: If the `address(this).balance` of the contract is over the `threshold` by 
 
 #### **🥅 Goals**
 
-*  Can you see `timeLeft` counting down in the `Staker UI` tab when you trigger a transaction with the faucet?
-*  If you `stake()` enough ETH before the `deadline`, does it call `complete()`?
-*  If you don't `stake()` enough can you `withdraw(address payable)` your funds?
+* &#x20;Can you see `timeLeft` counting down in the `Staker UI` tab when you trigger a transaction with the faucet?
+* &#x20;If you `stake()` enough ETH before the `deadline`, does it call `complete()`?
+* &#x20;If you don't `stake()` enough can you `withdraw(address payable)` your funds?
 
 #### ⚔️ Side Quests
 
-*  Can execute get called more than once, and is that okay?
-*  Can you deposit and withdraw freely after the `deadline`, and is that okay?
-*  What are other implications of _anyone_ being able to withdraw for someone?
-*  Can you implement your own [modifier](https://solidity-by-example.org/function-modifier/) that checks whether `deadline` was passed or not? Where can you use it?
+* &#x20;Can execute get called more than once, and is that okay?
+* &#x20;Can you deposit and withdraw freely after the `deadline`, and is that okay?
+* &#x20;What are other implications of _anyone_ being able to withdraw for someone?
+* &#x20;Can you implement your own [modifier](https://solidity-by-example.org/function-modifier/) that checks whether `deadline` was passed or not? Where can you use it?
 
 #### 🐸 It's a trap!
 
-*  Make sure funds can't get trapped in the contract! Try sending funds after you have executed!
-*  Try to create a [modifier](https://solidity-by-example.org/function-modifier/) called `notCompleted`. It will check that `ExampleExternalContract` is not completed yet. Use it to protect your `execute` and `withdraw` functions.
+* &#x20;Make sure funds can't get trapped in the contract! Try sending funds after you have executed!
+* &#x20;Try to create a [modifier](https://solidity-by-example.org/function-modifier/) called `notCompleted`. It will check that `ExampleExternalContract` is not completed yet. Use it to protect your `execute` and `withdraw` functions.
 
 ### Checkpoint 4: 🚢 Ship it 🚁
 
@@ -103,9 +103,9 @@ Hint: If the `address(this).balance` of the contract is over the `threshold` by 
 
 🔐 If you don't have one, run `yarn generate` to create a mnemonic and save it locally for deploying.
 
-🛰 Use an [instantwallet.io](https://instantwallet.io/) to fund your **deployer address** \(run `yarn account` to view balances\)
+🛰 Use an [instantwallet.io](https://instantwallet.io) to fund your **deployer address** (run `yarn account` to view balances)
 
-> 🚀 Run `yarn deploy` to deploy to your public network of choice \(wherever you can get ⛽️ gas\)
+> 🚀 Run `yarn deploy` to deploy to your public network of choice (wherever you can get ⛽️ gas)
 
 ### Checkpoint 5: 🎚 Frontend 🧘‍♀️
 
@@ -115,9 +115,9 @@ Hint: If the `address(this).balance` of the contract is over the `threshold` by 
 
 📦 Run `yarn build` to package up your frontend.
 
-💽 Upload your app to surge with `yarn surge` \(you could also `yarn s3` or maybe even `yarn ipfs`?\)
+💽 Upload your app to surge with `yarn surge` (you could also `yarn s3` or maybe even `yarn ipfs`?)
 
-🚔 Traffic to your url might break the [Infura](https://infura.io/) rate limit, edit your key: `constants.js` in `packages/ract-app/src`.
+🚔 Traffic to your url might break the [Infura](https://infura.io) rate limit, edit your key: `constants.js` in `packages/ract-app/src`.
 
 ## Where to go next
 
@@ -126,4 +126,3 @@ Hint: If the `address(this).balance` of the contract is over the `threshold` by 
 > 👩‍🔬 Need a longer form tutorial to guide your coding? [Try this one!](https://github.com/austintgriffith/scaffold-eth/tree/staking-app-tutorial)
 
 > 💬 Problems, questions, comments on the stack? Post them to the [🏗 scaffold-eth developers chat](https://t.me/joinchat/F7nCRK3kI93PoCOk)
-

@@ -1,3 +1,7 @@
+---
+description: All example branches will reside in the Scaffold-Eth-Examples repository.
+---
+
 # 👀 Overview
 
 ## About these Example Branches
@@ -16,11 +20,7 @@ Be aware that these branches have not been audited in any way and they might con
 
 Is there a branch you'd like to see built? Use this Github board to request it!&#x20;
 
-{% embed url="https://github.com/austintgriffith/scaffold-eth/projects/1" %}
-
-**Please see this video that explains how to add a request:**
-
-{% file src="../.gitbook/assets/requesting-a-tutorial.mov" %}
-How to properly request a tutorial
-{% endfile %}
+{% embed url="https://github.com/scaffold-eth/scaffold-eth-examples/issues/new?assignees=&labels=&template=feature_request.md&title=" %}
+Request Link
+{% endembed %}
 

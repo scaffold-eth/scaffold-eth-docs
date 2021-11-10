@@ -1,5 +1,5 @@
 ---
-description: Multiple uses of different chainlink contracts
+description: Start using Chainlink in your smart contracts and front-end today 😁
 ---
 
 # ⛓ ChainLink
@@ -7,7 +7,7 @@ description: Multiple uses of different chainlink contracts
 ## Branch Info
 
 **Author: **[pharo.eth](https://twitter.com/Pharo44153106) 🥷🏽\
-**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/chainlink-tutorial-1](https://github.com/austintgriffith/scaffold-eth/tree/chainlink-tutorial-1)\
+**Source code:** [https://github.com/scaffold-eth/scaffold-eth/tree/chainlink-tutorial-1](https://github.com/scaffold-eth/scaffold-eth/tree/chainlink-tutorial-1)\
 **Intended audience:** Beginners/Intermediate\
 **Topics:** Scaffold-eth basics, Chainlink, API Integration
 

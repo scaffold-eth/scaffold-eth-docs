@@ -159,5 +159,5 @@ Now that we covered the basics of Scaffold-eth, you should try to familiarize yo
 * :alembic: Spend some time tinkering with `YourContract.sol`
 
 {% hint style="info" %}
-Don't forget to check the [Examples and Tutorials](../examples-branches/overview.md) section which has a bunch of tutorials and sample projects built with Scaffold-eth which you can extend or use as a base for your own projects!
+Don't forget to check the [Examples and Tutorials](../examples-and-tutorials/overview.md) section which has a bunch of tutorials and sample projects built with Scaffold-eth which you can extend or use as a base for your own projects!
 {% endhint %}

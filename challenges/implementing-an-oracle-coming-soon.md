@@ -4,6 +4,17 @@ description: Start using Chainlink data feeds, VRF and more ⛓
 
 # 🔮 Implementing an Oracle
 
+### Challenge 4 - Implementing an Oracle 🔮
+
+### Getting Started
+
+```
+git clone https://github.com/scaffold-eth/scaffold-eth-challenges.git app
+cd app
+git checkout challenge-4-oracle
+yarn install
+```
+
 ### How Do Smart Contracts Use Oracles?
 
 Oracles are most popularly used with Data Feeds. DeFi platforms like AAVE and Synthetix use Chainlink data feed oracles to obtain accurate real-time asset prices in their smart contracts.
