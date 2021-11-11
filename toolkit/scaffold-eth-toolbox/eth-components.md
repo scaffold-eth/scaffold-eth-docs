@@ -1,109 +1,342 @@
 # 🏺 Eth-components
 
+### Components & Helpers
 
+[useEthersProvider](https://github.com/scaffold-eth/eth-components#useEthersProvider) ⇒
 
-![](https://user-images.githubusercontent.com/2653167/110500019-04ed5d00-80b6-11eb-97a4-74068fa90846.png)
+A wrapper around useWeb3React that we can extend as required
 
-Your commonly used React Ethereum components located in `packages/react-app/src/`:
+[renderTestHook](https://github.com/scaffold-eth/eth-components#renderTestHook) ⇒
 
-## Address
+Created a test hook with a Web3Wrapper
 
-📬 `<Address />`: A simple display for an Ethereum address that uses a [Blockie](https://www.npmjs.com/package/ethereum-blockies), lets you copy, and links to [Etherescan](https://etherscan.io/).
+[Account](https://github.com/scaffold-eth/eth-components#Account) ⇒
 
-```text
-  <Address value={address} />
-  <Address value={address} size="short" />
-  <Address value={address} size="long" blockexplorer="https://blockscout.com/poa/xdai/address/"/>
-  <Address value={address} ensProvider={mainnetProvider}/>
+Displays an Address, Balance, and Wallet as one Account component, also allows users to log in to existing accounts and log out
+
+```
+~ Features ~
 ```
 
-![](https://user-images.githubusercontent.com/2653167/80522487-e375fd80-8949-11ea-84fd-0de3eab5cd03.gif)
+* Provide address={address} and get balance corresponding to the given address
+* Provide localProvider={localProvider} to access balance on local network
+* Provide userProvider={userProvider} to display a wallet
+*   Provide mainnetProvider={mainnetProvider} and your address will be replaced by ENS name
 
-## AddressInput
+    ```
+          (ex. "0xa870" => "user.eth")
+    ```
+* Provide price={price} of ether and get your balance converted to dollars
+*   Provide web3Modal={web3Modal}, loadWeb3Modal={loadWeb3Modal}, logoutOfWeb3Modal={logoutOfWeb3Modal}
 
-🖋 `<AddressInput />`: An input box you control with useState for an Ethereum address that uses a [Blockie](https://www.npmjs.com/package/ethereum-blockies) and ENS lookup/display.
+    ```
+          to be able to log in/log out to/from existing accounts
+    ```
+*   Provide blockExplorer={blockExplorer}, click on address and get the link
 
-```text
-  const [ address, setAddress ] = useState("")
-  <AddressInput
-    value={address}
-    ensProvider={props.ensProvider}
-    onChange={(address)=>{
-      setAddress(address)
-    }}
-  />
+    ```
+          (ex. by default "https://etherscan.io/" or for xdai "https://blockscout.com/poa/xdai/")
+    ```
+
+[Address](https://github.com/scaffold-eth/eth-components#Address) ⇒
+
+Displays an address with a blockie image and option to copy address
+
+\~ Features \~
+
+*   Provide ensProvider={mainnetProvider} and your address will be replaced by ENS name
+
+    ```
+          (ex. "0xa870" => "user.eth")
+    ```
+*   Provide blockExplorer={blockExplorer}, click on address and get the link
+
+    ```
+          (ex. by default "https://etherscan.io/" or for xdai "https://blockscout.com/poa/xdai/")
+    ```
+* Provide fontSize={fontSize} to change the size of address text
+
+[AddressInput](https://github.com/scaffold-eth/eth-components#AddressInput) ⇒
+
+Displays an address input with QR scan option \~ Features \~
+
+*   Provide ensProvider={mainnetProvider} and your address will be replaced by ENS name
+
+    ```
+          (ex. "0xa870" => "user.eth") or you can enter directly ENS name instead of address
+    ```
+* Provide placeholder="Enter address" value for the input
+* Value of the address input is stored in value={toAddress}
+*   Control input change by onChange={setToAddress}
+
+    ```
+                      or onChange={address => { setToAddress(address);}}
+    ```
+
+[Balance](https://github.com/scaffold-eth/eth-components#Balance) ⇒
+
+Displays a balance of given address in ether & dollar
+
+\~ Features \~
+
+* Provide address={address} and get balance corresponding to given address
+* Provide provider={mainnetProvider} to access balance on mainnet or any other network (ex. localProvider)
+* Provide price={price} of ether and get your balance converted to dollars
+
+[Blockie](https://github.com/scaffold-eth/eth-components#Blockie) ⇒
+
+Show a blockie (bar code profile icon) component for an public address
+
+[EtherInput](https://github.com/scaffold-eth/eth-components#EtherInput) ⇒
+
+Displays input field for ETH/USD amount, with an option to convert between ETH and USD \~ Features \~
+
+* Provide price={price} of ether and easily convert between USD and ETH
+* Provide value={value} to specify initial amount of ether
+* Provide placeholder="Enter amount" value for the input
+* Control input change by onChange={value => { setAmount(value);}}
+
+[Faucet](https://github.com/scaffold-eth/eth-components#Faucet) ⇒
+
+Displays a local faucet to send ETH to given address, also wallet is provided
+
+\~ Features \~
+
+* Provide price={price} of ether and convert between USD and ETH in a wallet
+* Provide localProvider={localProvider} to be able to send ETH to given address
+*   Provide ensProvider={mainnetProvider} and your address will be replaced by ENS name
+
+    ```
+          (ex. "0xa870" => "user.eth") or you can enter directly ENS name instead of address
+          works both in input field & wallet
+    ```
+* Provide placeholder="Send local faucet" value for the input
+
+[GasGauge](https://github.com/scaffold-eth/eth-components#GasGauge) ⇒
+
+Displays gas gauge
+
+\~ Features \~
+
+* Provide gasPrice={gasPrice} and get current gas gauge
+
+[PunkBlockie](https://github.com/scaffold-eth/eth-components#PunkBlockie) ⇒
+
+Show a punk blockie (crypto punk profile icon) component for an public address
+
+[Wallet](https://github.com/scaffold-eth/eth-components#Wallet) ⇒
+
+Displays a wallet where you can specify address and send USD/ETH, with options to scan address, to convert between USD and ETH, to see and generate private keys, to send, receive and extract the burner wallet \~ Features \~
+
+* Provide provider={userProvider} to display a wallet
+*   Provide address={address} if you want to specify address, otherwise
+
+    ```
+                                                your default address will be used
+    ```
+*   Provide ensProvider={mainnetProvider} and your address will be replaced by ENS name
+
+    ```
+          (ex. "0xa870" => "user.eth") or you can enter directly ENS name instead of address
+    ```
+* Provide price={price} of ether and easily convert between USD and ETH
+* Provide color to specify the color of wallet icon
+
+[transactor](https://github.com/scaffold-eth/eth-components#transactor) ⇒
+
+this should probably just be renamed to "notifier" it is basically just a wrapper around BlockNative's wonderful Notify.js [https://docs.blocknative.com/notify](https://docs.blocknative.com/notify)
+
+### useEthersProvider ⇒
+
+A wrapper around useWeb3React that we can extend as required
+
+**Kind**: global constant\
+**Returns**: TEthersManager\
+
+
+### renderTestHook ⇒
+
+Created a test hook with a Web3Wrapper
+
+**Kind**: global constant\
+**Returns**: (TTestHookResult)\
+**See**: renderHook from @link testing-library/react-hooks
+
+| Param    | Description           |
+| -------- | --------------------- |
+| callback | callback to init hook |
+
+### Account ⇒
+
+Displays an Address, Balance, and Wallet as one Account component, also allows users to log in to existing accounts and log out
+
+```
+~ Features ~
 ```
 
-## Balance
+* Provide address={address} and get balance corresponding to the given address
+* Provide localProvider={localProvider} to access balance on local network
+* Provide userProvider={userProvider} to display a wallet
+* Provide mainnetProvider={mainnetProvider} and your address will be replaced by ENS name (ex. "0xa870" => "user.eth")
+* Provide price={price} of ether and get your balance converted to dollars
+* Provide web3Modal={web3Modal}, loadWeb3Modal={loadWeb3Modal}, logoutOfWeb3Modal={logoutOfWeb3Modal} to be able to log in/log out to/from existing accounts
+* Provide blockExplorer={blockExplorer}, click on address and get the link (ex. by default "[https://etherscan.io/](https://etherscan.io)" or for xdai "[https://blockscout.com/poa/xdai/](https://blockscout.com/poa/xdai/)")
 
-💵 `<Balance />`: Displays the balance of an address in either dollars or decimal.
+**Kind**: global constant\
+**Returns**: (FC)
 
-```text
-<Balance
-  address={address}
-  provider={injectedProvider}
-  dollarMultiplier={price}
-/>
-```
+| Param |
+| ----- |
+| props |
 
-![](https://user-images.githubusercontent.com/2653167/80522919-86c71280-894a-11ea-8f61-70bac7a72106.gif)
+### Address ⇒
 
-## Account
+Displays an address with a blockie image and option to copy address
 
-👤 `<Account />`: Allows your users to start with an Ethereum address on page load but upgrade to a more secure, injected provider, using [Web3Modal](https://web3modal.com/). It will track your `address` and `localProvider` in your app's state:
+\~ Features \~
 
-```text
-const [address, setAddress] = useState();
-const [injectedProvider, setInjectedProvider] = useState();
-const price = useExchangePrice(mainnetProvider);
-```
+* Provide ensProvider={mainnetProvider} and your address will be replaced by ENS name (ex. "0xa870" => "user.eth")
+* Provide blockExplorer={blockExplorer}, click on address and get the link (ex. by default "[https://etherscan.io/](https://etherscan.io)" or for xdai "[https://blockscout.com/poa/xdai/](https://blockscout.com/poa/xdai/)")
+* Provide fontSize={fontSize} to change the size of address text
 
-```text
-<Account
-  address={address}
-  setAddress={setAddress}
-  localProvider={localProvider}
-  injectedProvider={injectedProvider}
-  setInjectedProvider={setInjectedProvider}
-  dollarMultiplier={price}
-/>
-```
+**Kind**: global constant\
+**Returns**: (FC)
 
-![](https://user-images.githubusercontent.com/2653167/80527048-fdffa500-8950-11ea-9a0f-576be87e4368.gif)
+| Param |
+| ----- |
+| props |
 
-{% hint style="warning" %}
-**Notice**: the `<Account />` component will call `setAddress` and `setInjectedProvider` for you.
-{% endhint %}
+### AddressInput ⇒
 
-## Contract
+Displays an address input with QR scan option \~ Features \~
 
-## Blockie
+* Provide ensProvider={mainnetProvider} and your address will be replaced by ENS name (ex. "0xa870" => "user.eth") or you can enter directly ENS name instead of address
+* Provide placeholder="Enter address" value for the input
+* Value of the address input is stored in value={toAddress}
+* Control input change by onChange={setToAddress} or onChange={address => { setToAddress(address);}}
 
-## ByteStringInput
+**Kind**: global constant\
+**Returns**: (FC)
 
-## EtherInput
+| Param |
+| ----- |
+| props |
 
-## Faucet
+### Balance ⇒
 
-## GasGauge
+Displays a balance of given address in ether & dollar
 
-## Header
+\~ Features \~
 
-## L2Bridge
+* Provide address={address} and get balance corresponding to given address
+* Provide provider={mainnetProvider} to access balance on mainnet or any other network (ex. localProvider)
+* Provide price={price} of ether and get your balance converted to dollars
 
-## Provider
+**Kind**: global constant\
+**Returns**: (FC)
 
-## Ramp
+| Param |
+| ----- |
+| props |
 
-## Swap
+### Blockie ⇒
 
-## ThemeSwitch
+Show a blockie (bar code profile icon) component for an public address
 
-## Timeline
+**Kind**: global constant\
+**Returns**: (FC)
 
-## TokenBalance
+| Param |
+| ----- |
+| props |
 
-## Wallet
+### EtherInput ⇒
 
+Displays input field for ETH/USD amount, with an option to convert between ETH and USD \~ Features \~
 
+* Provide price={price} of ether and easily convert between USD and ETH
+* Provide value={value} to specify initial amount of ether
+* Provide placeholder="Enter amount" value for the input
+* Control input change by onChange={value => { setAmount(value);}}
+
+**Kind**: global constant\
+**Returns**: (FC)
+
+| Param |
+| ----- |
+| props |
+
+### Faucet ⇒
+
+Displays a local faucet to send ETH to given address, also wallet is provided
+
+\~ Features \~
+
+* Provide price={price} of ether and convert between USD and ETH in a wallet
+* Provide localProvider={localProvider} to be able to send ETH to given address
+* Provide ensProvider={mainnetProvider} and your address will be replaced by ENS name (ex. "0xa870" => "user.eth") or you can enter directly ENS name instead of address works both in input field & wallet
+* Provide placeholder="Send local faucet" value for the input
+
+**Kind**: global constant\
+**Returns**: (FC)
+
+| Param |
+| ----- |
+| props |
+
+### GasGauge ⇒
+
+Displays gas gauge
+
+\~ Features \~
+
+* Provide gasPrice={gasPrice} and get current gas gauge
+
+**Kind**: global constant\
+**Returns**: (FC)
+
+| Param |
+| ----- |
+| props |
+
+### PunkBlockie ⇒
+
+Show a punk blockie (crypto punk profile icon) component for an public address
+
+**Kind**: global constant\
+**Returns**: (FC)
+
+| Param |
+| ----- |
+| props |
+
+### Wallet ⇒
+
+Displays a wallet where you can specify address and send USD/ETH, with options to scan address, to convert between USD and ETH, to see and generate private keys, to send, receive and extract the burner wallet \~ Features \~
+
+* Provide provider={userProvider} to display a wallet
+* Provide address={address} if you want to specify address, otherwise your default address will be used
+* Provide ensProvider={mainnetProvider} and your address will be replaced by ENS name (ex. "0xa870" => "user.eth") or you can enter directly ENS name instead of address
+* Provide price={price} of ether and easily convert between USD and ETH
+* Provide color to specify the color of wallet icon
+
+**Kind**: global constant\
+**Returns**: (FC)
+
+| Param |
+| ----- |
+| props |
+
+### transactor ⇒
+
+this should probably just be renamed to "notifier" it is basically just a wrapper around BlockNative's wonderful Notify.js [https://docs.blocknative.com/notify](https://docs.blocknative.com/notify)
+
+**Kind**: global constant\
+**Returns**: (transactor) a function to transact which calls a callback method parameter on completion
+
+| Param     |
+| --------- |
+| provider  |
+| gasPrice  |
+| etherscan |
 
