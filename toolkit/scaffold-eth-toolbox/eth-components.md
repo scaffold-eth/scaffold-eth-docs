@@ -1,6 +1,6 @@
 # 🏺 Eth-components
 
-### Components & Helpers
+## Components & Helpers
 
 [useEthersProvider](https://github.com/scaffold-eth/eth-components#useEthersProvider) ⇒
 
