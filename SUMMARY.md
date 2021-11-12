@@ -37,13 +37,14 @@
 
 ## Speed run challenge course <a href="challenges" id="challenges"></a>
 
-* [🧙‍♂️     About these challenges](challenges/about-these-challenges.md)
+* [🧙‍♂️     About the Speed Run](challenges/about-these-challenges.md)
 * [🖼    Simple NFT](challenges/simple-nft.md)
 * [🥩 Decentralized Staking App](challenges/untitled.md)
 * [🏵 Token Vendor](challenges/token-vendor.md)
 * [✍️     Multi-Sig](challenges/sign-in-with-web3-coming-soon.md)
 * [🔮 Implementing an Oracle](challenges/implementing-an-oracle-coming-soon.md)
-* [📉 Minimum Viable DEX](challenges/minimum-viable-dex.md)
+* [📉 Minimum Viable DEX](challenges/minimum-viable-dex/README.md)
+  * [💸    Flash Loan](challenges/minimum-viable-dex/flash-loan.md)
 * [🎨 NFT Marketplace](challenges/nft-marketplace-coming-soon.md)
 * [😱 Create a Stream](challenges/create-a-stream.md)
 

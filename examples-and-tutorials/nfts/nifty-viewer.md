@@ -7,7 +7,7 @@ description: A forkable nft gallery with transfer functionality and burner walle
 ## Branch Info
 
 **Author: **[Austin Griffith](https://github.com/austintgriffith)****\
-**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/gtgs-voice-gems](https://github.com/austintgriffith/scaffold-eth/tree/gtgs-voice-gems)\
+**Source code:** [https://github.com/scaffold-eth/scaffold-eth-example/tree/gtgs-voice-gems](https://github.com/austintgriffith/scaffold-eth/tree/gtgs-voice-gems)\
 **Intended audience:** Beginners/Intermediate\
 **Topics:** Scaffold-eth basics, NFTs
 
@@ -18,7 +18,7 @@ description: A forkable nft gallery with transfer functionality and burner walle
 required: [Node](https://nodejs.org/dist/latest-v12.x/) plus [Yarn](https://classic.yarnpkg.com/en/docs/install/) and [Git](https://git-scm.com/downloads)
 
 ```
-git clone https://github.com/austintgriffith/scaffold-eth.git nifty-viewer
+git clone https://github.com/scaffold-eth/scaffold-eth-example.git nifty-viewer
 
 cd nifty-viewer
 

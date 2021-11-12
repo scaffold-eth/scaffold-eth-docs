@@ -7,7 +7,7 @@ description: An off-chain signature-based multi-sig wallet
 ## Branch Info
 
 **Author: **[Amogh Jahagirdar](https://github.com/0xamogh)****\
-**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/meta-multi-sig](https://github.com/austintgriffith/scaffold-eth/tree/meta-multi-sig)\
+**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/meta-multi-sig](https://github.com/austintgriffith/scaffold-eth/tree/meta-multi-sig)\
 **Intended audience:** Intermediate\
 **Topics:** Scaffold-eth basics, multi-sig wallets
 
@@ -16,7 +16,7 @@ description: An off-chain signature-based multi-sig wallet
 required: [Node](https://nodejs.org/dist/latest-v12.x/) plus [Yarn](https://classic.yarnpkg.com/en/docs/install/) and [Git](https://git-scm.com/downloads)
 
 ```
-git clone https://github.com/austintgriffith/scaffold-eth.git meta-multi-sig
+git clone https://github.com/scaffold-eth/scaffold-eth-examples.git meta-multi-sig
 
 cd meta-multi-sig
 

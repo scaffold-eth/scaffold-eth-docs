@@ -9,7 +9,7 @@ description: >-
 ## Branch Info
 
 **Author: **[Viraz Malhotra](https://github.com/viraj124)****\
-**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/nft-auction](https://github.com/austintgriffith/scaffold-eth/tree/nft-auction)\
+**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/nft-auction](https://github.com/austintgriffith/scaffold-eth/tree/nft-auction)\
 **Intended audience:** Beginners/Intermediate\
 **Topics:** Scaffold-eth basics, NFTs
 
@@ -52,7 +52,7 @@ Let's start our environment for tinkering and exploring how NFT auction would wo
 1. Clone the repo first
 
 ```
-git clone -b nft-auction https://github.com/austintgriffith/scaffold-eth.git nft-auction
+git clone -b nft-auction https://github.com/scaffold-eth/scaffold-eth-examples.git nft-auction
 cd nft-auction
 ```
 

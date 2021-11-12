@@ -3,7 +3,7 @@
 ## Branch Info
 
 **Author: **[0x harry rana](https://github.com/harryranakl)****\
-**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/defi-subgraphs](https://github.com/austintgriffith/scaffold-eth/tree/defi-subgraphs)\
+**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/defi-subgraphs](https://github.com/austintgriffith/scaffold-eth/tree/defi-subgraphs)\
 **Intended audience:** Beginners/Intermediate\
 **Topics:** Scaffold-eth basics, Subgraphs, DeFi
 
@@ -16,7 +16,7 @@ Interact with different DeFi subgraphs like Uniswap's, Aave, Synthetix, Balancer
 ⚠️ First, make sure you have: [Node](https://nodejs.org/dist/latest-v12.x/) plus [Yarn](https://classic.yarnpkg.com/en/docs/install/) and [Git](https://git-scm.com/downloads)
 
 ```
-git clone https://github.com/austintgriffith/scaffold-eth.git
+git clone https://github.com/scaffold-eth/scaffold-eth-examples.git
 cd scaffold-eth
 git checkout defi-subgraphs
 yarn install

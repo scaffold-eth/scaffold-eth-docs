@@ -3,7 +3,7 @@
 ## &#x20;Branch Info
 
 **Author: **[Temirzhan Yussupov](https://github.com/ironsoul0)****\
-**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/signature-nft-auction](https://github.com/austintgriffith/scaffold-eth/tree/signature-nft-auction)\
+**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/signature-nft-auction](https://github.com/austintgriffith/scaffold-eth/tree/signature-nft-auction)\
 **Intended audience:** Intermediate\
 **Topics:** Scaffold-eth basics, NFTs
 
@@ -44,7 +44,7 @@ Let's start our environment for tinkering and exploring how NFT auction would wo
 1. Clone the repo first
 
 ```
-git clone -b signature-nft-auction https://github.com/austintgriffith/scaffold-eth.git nft-auction
+git clone -b signature-nft-auction https://github.com/scaffold-eth/scaffold-eth-examples.git nft-auction
 cd nft-auction
 ```
 

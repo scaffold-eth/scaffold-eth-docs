@@ -9,7 +9,7 @@ description: >-
 ## Branch Info
 
 **Author: **[Austin Griffith](https://github.com/austintgriffith)****\
-**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/merkle-root-buyer-mints](https://github.com/austintgriffith/scaffold-eth/tree/merkle-root-buyer-mints)\
+**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/merkle-root-buyer-mints](https://github.com/austintgriffith/scaffold-eth/tree/merkle-root-buyer-mints)\
 **Intended audience:** Beginners/Intermediate\
 **Topics:** Scaffold-eth basics, NFTs, Merkle Tree
 
@@ -45,7 +45,7 @@ Let's start our environment for tinkering and exploring how NFT auction would wo
 1. Clone the repo first
 
 ```
-git clone https://github.com/austintgriffith/scaffold-eth.git buyer-mints-nft
+git clone https://github.com/scaffold-eth/scaffold-eth-example.git buyer-mints-nft
 ```
 
 1. Install dependencies

@@ -9,14 +9,14 @@ description: >-
 ## Branch Info
 
 **Author: **[Austin Griffith](https://github.com/austintgriffith)****\
-**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/emoji-support](https://github.com/austintgriffith/scaffold-eth/tree/emoji-support)\
+**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/emoji-support](https://github.com/austintgriffith/scaffold-eth/tree/emoji-support)\
 **Intended audience:** Intermediate\
 **Topics:** Scaffold-eth basics, quadratic matching
 
 ## 🏃‍♀️ Quick Start
 
 ```
-git clone https://github.com/austintgriffith/scaffold-eth.git emoji-support
+git clone https://github.com/scaffold-eth/scaffold-eth-examples.git emoji-support
 
 cd emoji-support
 

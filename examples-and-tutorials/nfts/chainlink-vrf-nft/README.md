@@ -7,7 +7,7 @@ description: Use VRF to get a 🎲 random "⚔️ strength" for each NFT as it i
 ## Branch Info
 
 **Author: **[Austin Griffith](https://github.com/austintgriffith)****\
-**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/chainlink-vrf-nft](https://github.com/austintgriffith/scaffold-eth/tree/chainlink-vrf-nft)\
+**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/chainlink-vrf-nft](https://github.com/austintgriffith/scaffold-eth/tree/chainlink-vrf-nft)\
 **Intended audience:** Beginners/Intermediate\
 **Topics:** Scaffold-eth basics, NFTs, Chainlink
 
@@ -18,7 +18,7 @@ description: Use VRF to get a 🎲 random "⚔️ strength" for each NFT as it i
 required: [Node](https://nodejs.org/dist/latest-v12.x/) plus [Yarn](https://classic.yarnpkg.com/en/docs/install/) and [Git](https://git-scm.com/downloads)
 
 ```
-git clone https://github.com/austintgriffith/scaffold-eth.git buyer-mints-nft
+git clone https://github.com/scaffold-eth/scaffold-eth-examples.git buyer-mints-nft
 
 cd buyer-mints-nft
 

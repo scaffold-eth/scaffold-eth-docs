@@ -7,14 +7,14 @@ description: A "buyer mints" NFT gallery running on Optimism
 ## Branch Info
 
 **Author: **[Austin Griffith](https://github.com/austintgriffith)****\
-**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/optimistic-nft-dev-session](https://github.com/austintgriffith/scaffold-eth/tree/optimistic-nft-dev-session)\
+**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/optimistic-nft-dev-session](https://github.com/austintgriffith/scaffold-eth/tree/optimistic-nft-dev-session)\
 **Intended audience:** Intermediate\
 **Topics:** Scaffold-eth basics, NFTs, Layer 2
 
 ## 🏃‍♀️ Quick Start
 
 ```
-git clone -b local-optimism https://github.com/austintgriffith/scaffold-eth.git local-optimism
+git clone -b local-optimism https://github.com/scaffold-eth/scaffold-eth-examples.git local-optimism
 
 cd local-optimism
 ```

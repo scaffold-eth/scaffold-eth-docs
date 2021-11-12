@@ -9,7 +9,7 @@ description: >-
 ## Branch Info
 
 **Author: **[Austin Griffith](https://github.com/austintgriffith)****\
-**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/gtgs-voice-gems](https://github.com/austintgriffith/scaffold-eth/tree/gtgs-voice-gems)\
+**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/gtgs-voice-gems](https://github.com/austintgriffith/scaffold-eth/tree/gtgs-voice-gems)\
 **Intended audience:** Beginners/Intermediate\
 **Topics:** Scaffold-eth basics, NFTs
 
@@ -18,7 +18,7 @@ description: >-
 required: [Node](https://nodejs.org/dist/latest-v12.x/) plus [Yarn](https://classic.yarnpkg.com/en/docs/install/) and [Git](https://git-scm.com/downloads)
 
 ```
-git clone -b gtgs https://github.com/austintgriffith/scaffold-eth.git gtgs
+git clone -b gtgs https://github.com/scaffold-eth/scaffold-eth-examples.git gtgs
 
 cd gtgs
 ```

@@ -7,7 +7,7 @@ description: Start using Chainlink in your smart contracts and front-end today ğ
 ## Branch Info
 
 **Author: **[pharo.eth](https://twitter.com/Pharo44153106) ğŸ¥·ğŸ½\
-**Source code:** [https://github.com/scaffold-eth/scaffold-eth/tree/chainlink-tutorial-1](https://github.com/scaffold-eth/scaffold-eth/tree/chainlink-tutorial-1)\
+**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/chainlink-tutorial-1](https://github.com/scaffold-eth/scaffold-eth/tree/chainlink-tutorial-1)\
 **Intended audience:** Beginners/Intermediate\
 **Topics:** Scaffold-eth basics, Chainlink, API Integration
 
@@ -16,8 +16,8 @@ description: Start using Chainlink in your smart contracts and front-end today ğ
 From a terminal or code editor of your choice start by cloning the repo.
 
 ```bash
-git clone -b chainlink-tutorial-1 https://github.com/austintgriffith/scaffold-eth.git
-cd scaffold-eth
+git clone -b chainlink-tutorial-1 https://github.com/scaffold-eth/scaffold-eth-examples.git app
+cd app
 ```
 
 Update all the packages.

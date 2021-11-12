@@ -9,7 +9,7 @@ description: >-
 ## Branch Info
 
 **Author: **[Austin Griffith](https://github.com/austintgriffith)****\
-**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/simple-stream](https://github.com/austintgriffith/scaffold-eth/tree/simple-stream)\
+**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/simple-stream](https://github.com/austintgriffith/scaffold-eth/tree/simple-stream)\
 **Intended audience:** Beginners/Intermediate\
 **Topics:** Scaffold-eth basics, ETH Stream
 
@@ -18,7 +18,7 @@ description: >-
 required: [Node](https://nodejs.org/dist/latest-v12.x/) plus [Yarn](https://classic.yarnpkg.com/en/docs/install/) and [Git](https://git-scm.com/downloads)
 
 ```
-git clone https://github.com/austintgriffith/scaffold-eth.git simple-stream
+git clone https://github.com/scaffold-eth/scaffold-eth-examples.git simple-stream
 
 cd simple-stream
 

@@ -3,7 +3,7 @@
 ## Branch Info
 
 **Author: **[Temirzhan Yussupov](https://github.com/ironsoul0)****\
-**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/honeypot-example](https://github.com/austintgriffith/scaffold-eth/tree/honeypot-example)\
+**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/honeypot-example](https://github.com/austintgriffith/scaffold-eth/tree/honeypot-example)\
 **Intended audience:** Intermediate\
 **Topics:** Scaffold-eth basics, Solidity, Security
 
@@ -26,7 +26,7 @@ Let's start our environment for tinkering and exploring how honeypots work.
 1. Clone the repo first
 
 ```
-git clone https://github.com/austintgriffith/scaffold-eth.git honeypot-example
+git clone https://github.com/scaffold-eth/scaffold-eth-examples.git honeypot-example
 cd honeypot-example
 git checkout honeypot-example
 ```

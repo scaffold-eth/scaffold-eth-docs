@@ -3,7 +3,7 @@
 ## Branch Info
 
 **Author: **[Temirzhan Yussupov](https://github.com/ironsoul0)****\
-**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/denial-of-service-example](https://github.com/austintgriffith/scaffold-eth/tree/denial-of-service-example)\
+**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/denial-of-service-example](https://github.com/austintgriffith/scaffold-eth/tree/denial-of-service-example)\
 **Intended audience:** Intermediate\
 **Topics:** Scaffold-eth basics, Smart Contracts
 
@@ -43,7 +43,7 @@ Let's start our environment for tinkering and exploring how "DoS attack" works.
 1. Clone the repo first
 
 ```
-git clone -b https://github.com/austintgriffith/scaffold-eth.git denial-of-service-example
+git clone -b https://github.com/scaffold-eth/scaffold-eth-examples.git denial-of-service-example
 cd denial-of-service-example
 ```
 

@@ -2,7 +2,7 @@
 
 ## Branch Info
 
-**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/simple-nft-example](https://github.com/austintgriffith/scaffold-eth/tree/reentrancy-example)\
+**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/simple-nft-example](https://github.com/austintgriffith/scaffold-eth/tree/reentrancy-example)\
 **Intended audience:** Beginners/Intermediate\
 **Topics:** Scaffold-eth basics, Security
 
@@ -29,7 +29,7 @@ _The takeaway? Follow the checks-effects-interaction pattern in all your functio
 ## Quickstart
 
 ```
-git clone https://github.com/austintgriffith/scaffold-eth.git reentrancy
+git clone https://github.com/scaffold-eth/scaffold-eth-examples.git reentrancy
 cd reentrancy
 git checkout reentrancy-example
 ```

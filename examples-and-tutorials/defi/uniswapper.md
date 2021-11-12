@@ -9,14 +9,14 @@ description: >-
 ## Branch Info
 
 **Author: **[Austin Griffith](https://github.com/austintgriffith)****\
-**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/uniswapper](https://github.com/austintgriffith/scaffold-eth/tree/uniswapper)\
+**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/uniswapper](https://github.com/austintgriffith/scaffold-eth/tree/uniswapper)\
 **Intended audience:** Intermediate\
 **Topics:** Scaffold-eth basics, DEX
 
 ## 🏃‍♀️ Quick Start
 
 ```
-git clone -b uniswapper https://github.com/austintgriffith/scaffold-eth.git uniswapper-scaffold
+git clone -b uniswapper https://github.com/scaffold-eth/scaffold-eth-examples.git uniswapper-scaffold
 
 cd uniswapper-scaffold
 ```

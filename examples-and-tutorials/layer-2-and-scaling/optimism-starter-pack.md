@@ -7,7 +7,7 @@ description: A 🏗 scaffold-eth dev stack for 🔴 Optimism
 ## Branch Info
 
 **Author: **[Austin Griffith](https://github.com/austintgriffith)****\
-**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/local-optimism](https://github.com/austintgriffith/scaffold-eth/tree/local-optimism)\
+**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/local-optimism](https://github.com/austintgriffith/scaffold-eth/tree/local-optimism)\
 **Intended audience:** Intermediate\
 **Topics:** Scaffold-eth, Layer 2, Optimism
 
@@ -20,7 +20,7 @@ description: A 🏗 scaffold-eth dev stack for 🔴 Optimism
 ### quickstart
 
 ```
-git clone -b local-optimism https://github.com/austintgriffith/scaffold-eth.git local-optimism
+git clone -b local-optimism https://github.com/scaffold-eth/scaffold-eth-examples.git local-optimism
 
 cd local-optimism
 ```

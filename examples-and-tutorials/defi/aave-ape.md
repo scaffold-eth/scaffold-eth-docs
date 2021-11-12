@@ -7,7 +7,7 @@ description: A helper contract that lets you go long on the Aave asset of your c
 ## Branch Info
 
 **Author: **[Adam Fuller](https://github.com/azf20)****\
-**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/aave-ape](https://github.com/austintgriffith/scaffold-eth/tree/aave-ape)\
+**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/aave-ape](https://github.com/austintgriffith/scaffold-eth/tree/aave-ape)\
 **Intended audience:** Beginners/Intermediate\
 **Topics:** Scaffold-eth basics, Aave
 
@@ -24,7 +24,7 @@ The Aave Ape is a helper contract that lets you go long ("ape") the Aave asset o
 ### Quickstart
 
 ```
-git clone -b aave-ape https://github.com/austintgriffith/scaffold-eth.git aave-ape
+git clone -b aave-ape https://github.com/scaffold-eth/scaffold-eth-examples.git aave-ape
 
 cd aave-ape
 ```

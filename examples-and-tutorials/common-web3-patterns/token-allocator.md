@@ -9,7 +9,7 @@ description: >-
 ## Branch Info
 
 **Author: **[Austin Griffith](https://github.com/austintgriffith)****\
-**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/new-allocator](https://github.com/austintgriffith/scaffold-eth/tree/new-allocator)\
+**Source code:** [https://github.com/scaffole-eth/scaffold-eth-examples/tree/new-allocator](https://github.com/austintgriffith/scaffold-eth/tree/new-allocator)\
 **Intended audience:** Intermediate\
 **Topics:** Scaffold-eth, ERC-20 token
 
@@ -24,7 +24,7 @@ description: >-
 ## 🐊 Deploying an Allocator:
 
 ```
-git clone https://github.com/austintgriffith/scaffold-eth.git new-allocator
+git clone https://github.com/scaffold-eth/scaffold-eth-examples.git new-allocator
 
 cd new-allocator
 

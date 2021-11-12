@@ -7,7 +7,7 @@ description: A fork of 🎨 Nifty.ink with file uploads.
 ## Tutorial Info
 
 **Author: **[Viraz Malhotra](https://github.com/viraj124)****\
-**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/xnft](https://github.com/austintgriffith/scaffold-eth/tree/xnft)\
+**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/xnft](https://github.com/austintgriffith/scaffold-eth/tree/xnft)\
 **Intended audience:** Intermediate\
 **Topics:** Scaffold-eth basics, NFTs, Meta Transactions, Burner Wallets, xDAI
 
@@ -16,7 +16,7 @@ description: A fork of 🎨 Nifty.ink with file uploads.
 NFT artwork created and sold on xDAI using meta transactions, burner wallets, and bridged to Ethereum.
 
 ```
-git clone -b xnft https://github.com/austintgriffith/scaffold-eth.git xnft
+git clone -b xnft https://github.com/scaffold-eth/scaffold-eth-examples.git xnft
 ```
 
 #### Running xnft on xDai / Mainnet

@@ -9,7 +9,7 @@ description: >-
 NFT artwork created and sold on xDAI using meta transactions, burner wallets, and bridged to Ethereum.
 
 ```
-git clone -b nifty-ink-dev https://github.com/austintgriffith/scaffold-eth.git nifty-ink
+git clone -b nifty-ink-dev https://github.com/scaffold-eth/scaffold-eth-examples.git nifty-ink
 ```
 
 #### Running nifty.ink on xDai / Mainnet

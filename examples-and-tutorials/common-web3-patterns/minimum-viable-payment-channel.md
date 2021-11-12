@@ -7,7 +7,7 @@ description: Make micro payments in ETH with signatures over a open session
 ## Branch Info
 
 **Author: **[Viraz Malhotra](https://github.com/viraj124)****\
-**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/payment-channel](https://github.com/austintgriffith/scaffold-eth/tree/payment-channel)\
+**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/payment-channel](https://github.com/austintgriffith/scaffold-eth/tree/payment-channel)\
 **Intended audience:** Intermediate\
 **Topics:** Scaffold-eth basics, State Channels
 
@@ -39,7 +39,7 @@ Let's start our environment for tinkering and exploring how NFT auction would wo
 1. Clone the repo first
 
 ```
-git clone -b payment-channel https://github.com/austintgriffith/scaffold-eth.git payment-channel
+git clone -b payment-channel https://github.com/scaffold-eth/scaffold-eth-examples.git payment-channel
 cd payment-channel
 ```
 
