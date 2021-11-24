@@ -9,7 +9,7 @@ description: >-
 ## Branch Info
 
 **Author: **[Viraz Malhotra](https://github.com/viraj124)****\
-**Source code:** [https://github.com/austintgriffith/scaffold-eth/tree/minimal\_proxy](https://github.com/austintgriffith/scaffold-eth/tree/minimal\_proxy)\
+**Source code:**[ https://github.com/austintgriffith/scaffold-eth/tree/minimal\_proxy](https://github.com/austintgriffith/scaffold-eth/tree/minimal\_proxy)\
 **Intended audience:** Beginners/Intermediate\
 **Topics:** Scaffold-eth basics, Contract Deployment
 

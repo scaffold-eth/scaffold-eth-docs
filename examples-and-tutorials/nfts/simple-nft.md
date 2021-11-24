@@ -3,7 +3,7 @@
 ## Branch Info
 
 **Author: **[Hunter Chang](https://github.com/ChangoMan)****\
-**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/simple-nft-example](https://github.com/austintgriffith/scaffold-eth/tree/simple-nft-example)\
+**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/simple-nft-example](https://github.com/scaffold-eth/scaffold-eth-examples/tree/simple-nft-example)\
 **Intended audience:** Beginners/Intermediate\
 **Topics:** Scaffold-eth basics, NFTs, IPFS
 

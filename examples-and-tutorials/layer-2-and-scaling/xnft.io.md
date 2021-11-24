@@ -7,7 +7,7 @@ description: A fork of 🎨 Nifty.ink with file uploads.
 ## Tutorial Info
 
 **Author: **[Viraz Malhotra](https://github.com/viraj124)****\
-**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/xnft](https://github.com/austintgriffith/scaffold-eth/tree/xnft)\
+**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/xnft](https://github.com/scaffold-eth/scaffold-eth-examples/tree/xnft)\
 **Intended audience:** Intermediate\
 **Topics:** Scaffold-eth basics, NFTs, Meta Transactions, Burner Wallets, xDAI
 

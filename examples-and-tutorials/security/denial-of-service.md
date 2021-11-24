@@ -3,7 +3,7 @@
 ## Branch Info
 
 **Author: **[Temirzhan Yussupov](https://github.com/ironsoul0)****\
-**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/denial-of-service-example](https://github.com/austintgriffith/scaffold-eth/tree/denial-of-service-example)\
+**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/denial-of-service-example](https://github.com/scaffold-eth/scaffold-eth-examples/tree/denial-of-service-example)\
 **Intended audience:** Intermediate\
 **Topics:** Scaffold-eth basics, Smart Contracts
 

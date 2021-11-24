@@ -3,7 +3,7 @@
 ## Branch Info
 
 **Author: **[Adam Fuller](https://github.com/azf20)****\
-**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/lender#quickstart](https://github.com/austintgriffith/scaffold-eth/tree/lender#quickstart)\
+**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/lender#quickstart](https://github.com/scaffold-eth/scaffold-eth-examples/tree/lender#quickstart)\
 **Intended audience:** Beginners/Intermediate\
 **Topics:** Scaffold-eth basics, Aave, ETH-DAI
 

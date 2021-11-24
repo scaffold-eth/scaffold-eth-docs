@@ -120,6 +120,10 @@ Displays gas gauge
 
 * Provide gasPrice={gasPrice} and get current gas gauge
 
+NetworkDisplay =>
+
+
+
 [PunkBlockie](https://github.com/scaffold-eth/eth-components#PunkBlockie) ⇒
 
 Show a punk blockie (crypto punk profile icon) component for an public address

@@ -3,7 +3,7 @@
 ## Branch Info
 
 **Author: **[Pablo Ruiz](https://github.com/pabloruiz55)****\
-**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/simple-nft-example](https://github.com/austintgriffith/scaffold-eth/tree/simple-erc1155-nft-example)\
+**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/simple-erc1155-example](https://github.com/scaffold-eth/scaffold-eth-examples/tree/simple-erc1155-example)\
 **Intended audience:** Beginners/Intermediate\
 **Topics:** Scaffold-eth basics, NFTs, IPFS, ERC-1155
 

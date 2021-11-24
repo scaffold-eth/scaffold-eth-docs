@@ -7,7 +7,7 @@ description: tokens that represent redirected yield from lending
 ## Branch Info
 
 **Author: **[Saddam Asmatullayev](https://github.com/sadda11asm)****\
-**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/defi-rtokens](https://github.com/austintgriffith/scaffold-eth/tree/defi-rtokens)\
+**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/defi-rtokens](https://github.com/scaffold-eth/scaffold-eth-examples/tree/defi-rtokens)\
 **Intended audience:** Intermediate\
 **Topics:** Scaffold-eth basics, ERC-20 token, yield farming
 

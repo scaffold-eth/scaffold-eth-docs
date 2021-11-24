@@ -3,7 +3,7 @@
 ## Branch Info
 
 **Author: **[Temirzhan Yussupov](https://github.com/ironsoul0)****\
-**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/simple-nft-example](https://github.com/austintgriffith/scaffold-eth/commits/flash-loans-intro)\
+**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/simple-nft-example](https://github.com/scaffold-eth/scaffold-eth-examples/tree/simple-nft-example)\
 **Intended audience:** Intermediate\
 **Topics:** Scaffold-eth basics, Flash Loans, Aave, Uniswap, Sushiswap, ERC-20
 

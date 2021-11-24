@@ -3,7 +3,7 @@
 ## Branch Info
 
 **Author: Viraz**\
-**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/chainlink-tutorial-1](https://github.com/austintgriffith/scaffold-eth/tree/chainlink-tutorial-1)\
+**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/chainlink-tutorial-1](https://github.com/scaffold-eth/scaffold-eth-examples/tree/chainlink-tutorial-1)\
 **Intended audience:** Beginners/Intermediate\
 **Topics:** Scaffold-eth basics, tokenomics, bonding curves
 

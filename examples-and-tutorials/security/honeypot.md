@@ -3,7 +3,7 @@
 ## Branch Info
 
 **Author: **[Temirzhan Yussupov](https://github.com/ironsoul0)****\
-**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/honeypot-example](https://github.com/austintgriffith/scaffold-eth/tree/honeypot-example)\
+**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/honeypot-example](https://github.com/scaffold-eth/scaffold-eth-examples/tree/honeypot-example)\
 **Intended audience:** Intermediate\
 **Topics:** Scaffold-eth basics, Solidity, Security
 
