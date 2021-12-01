@@ -7,7 +7,7 @@ description: A simple web wallet to send around Rad tokens (ERC20 on mainnet).
 ## Branch Info
 
 **Author: **[Austin Griffith](https://github.com/austintgriffith)****\
-**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/radwallet](https://github.com/scaffold-eth/scaffold-eth-examples/tree/radwallet)\
+**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/radwallet](https://github.com/austintgriffith/scaffold-eth/tree/radwallet)\
 **Intended audience:** Beginners/Intermediate\
 **Topics:** Scaffold-eth basics, wallets
 

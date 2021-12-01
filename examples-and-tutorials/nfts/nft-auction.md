@@ -9,7 +9,7 @@ description: >-
 ## Branch Info
 
 **Author: **[Viraz Malhotra](https://github.com/viraj124)****\
-**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/nft-auction](https://github.com/scaffold-eth/scaffold-eth-examples/tree/nft-auction)\
+**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/nft-auction](https://github.com/austintgriffith/scaffold-eth/tree/nft-auction)\
 **Intended audience:** Beginners/Intermediate\
 **Topics:** Scaffold-eth basics, NFTs
 

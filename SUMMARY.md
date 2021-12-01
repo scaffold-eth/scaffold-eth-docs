@@ -6,14 +6,14 @@
 
 * [📥 Installation](getting-started/installation.md)
 * [🚀 Quick Start](getting-started/quick-start.md)
-* [👩‍🔬 Deploying Your Contracts](getting-started/deploying-your-contracts.md)
+* [👩‍🔬     Deploying Your Contracts](getting-started/deploying-your-contracts.md)
 * [🚢 Shipping Your App](getting-started/shipping-your-app.md)
 
 ## Toolkit
 
 * [📚 The Scaffold-eth Stack](toolkit/the-scaffold-eth-stack/README.md)
   * [🔮 Solidity](toolkit/the-scaffold-eth-stack/solidity.md)
-  * [👷‍♂️ Hardhat](toolkit/the-scaffold-eth-stack/hardhat.md)
+  * [👷‍♂️     Hardhat](toolkit/the-scaffold-eth-stack/hardhat.md)
   * [🧰 React](toolkit/the-scaffold-eth-stack/react.md)
   * [🛠 Ethers](toolkit/the-scaffold-eth-stack/ethers.js.md)
   * [🐜 Ant Design](toolkit/the-scaffold-eth-stack/ant-design.md)
@@ -35,7 +35,7 @@
   * [🗃 Blocknative](toolkit/infrastructure/blocknative.md)
   * [⚖️ L2 / Sidechain Services](toolkit/infrastructure/l2-sidechain-services.md)
 
-## Speed run challenge course <a href="challenges" id="challenges"></a>
+## Speed run challenge course <a href="#challenges" id="challenges"></a>
 
 * [🧙‍♂️     About the Speed Run](challenges/about-these-challenges.md)
 * [🖼    Simple NFT](challenges/simple-nft.md)
@@ -47,8 +47,9 @@
   * [💸    Flash Loan](challenges/minimum-viable-dex/flash-loan.md)
 * [🎨 NFT Marketplace](challenges/nft-marketplace-coming-soon.md)
 * [😱 Create a Stream](challenges/create-a-stream.md)
+* [🗄 Indexer & Node](challenges/indexer-and-node.md)
 
-## Example Branches <a href="examples-branches" id="examples-branches"></a>
+## Example Branches <a href="#examples-branches" id="examples-branches"></a>
 
 * [👀 Overview](examples-and-tutorials/overview.md)
 * [💥 Common Web3 Patterns](examples-and-tutorials/common-web3-patterns/README.md)

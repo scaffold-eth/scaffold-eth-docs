@@ -9,7 +9,7 @@ description: >-
 ## Branch Info
 
 **Author: **[Austin Griffith](https://github.com/austintgriffith)****\
-**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/simple-stream](https://github.com/scaffold-eth/scaffold-eth-examples/tree/simple-stream)\
+**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/simple-stream](https://github.com/austintgriffith/scaffold-eth/tree/simple-stream)\
 **Intended audience:** Beginners/Intermediate\
 **Topics:** Scaffold-eth basics, ETH Stream
 

@@ -3,7 +3,7 @@
 ## &#x20;Branch Info
 
 **Author: **[Temirzhan Yussupov](https://github.com/ironsoul0)****\
-**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/signature-nft-auction](nft-signature-based-auction.md#branch-info)\
+**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/signature-nft-auction](https://github.com/austintgriffith/scaffold-eth/tree/signature-nft-auction)\
 **Intended audience:** Intermediate\
 **Topics:** Scaffold-eth basics, NFTs
 

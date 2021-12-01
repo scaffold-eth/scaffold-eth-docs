@@ -2,7 +2,7 @@
 
 ## Branch Info
 
-**Source code:**[ https://github.com/scaffold-eth/scaffold-eth-examples/tree/simple-nft-example](https://github.com/scaffold-eth/scaffold-eth-examples/tree/simple-nft-example)\
+**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/simple-nft-example](https://github.com/austintgriffith/scaffold-eth/tree/reentrancy-example)\
 **Intended audience:** Beginners/Intermediate\
 **Topics:** Scaffold-eth basics, Security
 

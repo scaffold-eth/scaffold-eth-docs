@@ -7,6 +7,6 @@ description: >-
 
 # 🧙‍♂️     About the Speed Run
 
-**Challenges** are some fun tasks you can take on to level-up your Scaffold-eth skills.&#x20;
+**Challenges** are some fun tasks you can take on to level-up your Scaffold-eth 🏗 skills and eventually join the [Buidl Guidl](https://buidlguidl.com) 🏰  and get streamed some ETH 💸
 
-Challenge 1,2 and 5 are ready and reflect the 1st, 2nd and 3rd from before. Let us know if you have any questions about the changes.
+Challenge 0, 0,  1, 2 and 5 are rbout the changes and we welcome your feedback to make it better for the next developer 👨🏼‍💻

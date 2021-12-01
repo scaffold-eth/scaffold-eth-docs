@@ -3,7 +3,7 @@
 ## Branch Info
 
 **Author: **[0x harry rana](https://github.com/harryranakl)****\
-**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/defi-subgraphs](https://github.com/scaffold-eth/scaffold-eth-examples/tree/defi-subgraphs)\
+**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/defi-subgraphs](https://github.com/austintgriffith/scaffold-eth/tree/defi-subgraphs)\
 **Intended audience:** Beginners/Intermediate\
 **Topics:** Scaffold-eth basics, Subgraphs, DeFi
 

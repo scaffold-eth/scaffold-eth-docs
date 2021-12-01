@@ -7,7 +7,7 @@ description: Use VRF to get a 🎲 random "⚔️ strength" for each NFT as it i
 ## Branch Info
 
 **Author: **[Austin Griffith](https://github.com/austintgriffith)****\
-**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/chainlink-vrf-nft](https://github.com/scaffold-eth/scaffold-eth-examples/tree/chainlink-vrf-nft)\
+**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/chainlink-vrf-nft](https://github.com/austintgriffith/scaffold-eth/tree/chainlink-vrf-nft)\
 **Intended audience:** Beginners/Intermediate\
 **Topics:** Scaffold-eth basics, NFTs, Chainlink
 

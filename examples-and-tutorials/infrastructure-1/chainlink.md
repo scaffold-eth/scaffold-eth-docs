@@ -7,9 +7,9 @@ description: Start using Chainlink in your smart contracts and front-end today �
 ## Branch Info
 
 **Author: **[pharo.eth](https://twitter.com/Pharo44153106) 🥷🏽\
-**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/chainlink-tutorial-1](https://github.com/scaffold-eth/scaffold-eth-examples/tree/chainlink-tutorial-1)\
+**Source code:** [https://github.com/scaffold-eth/scaffold-eth-examples/tree/chainlink-tutorial-1](https://github.com/scaffold-eth/scaffold-eth/tree/chainlink-tutorial-1)\
 **Intended audience:** Beginners/Intermediate\
-**Topics:** Scaffold-eth basics, Chainlink, API Integration, VRF, Price Feeds
+**Topics:** Scaffold-eth basics, Chainlink, API Integration
 
 ## Getting Started & Setting Up
 
@@ -29,7 +29,7 @@ yarn install
 Generate a deployer account and mnemonic.
 
 ```bash
-yarn generate
+yarn run generate
 ```
 
 You can ignore the warnings here.
@@ -44,7 +44,7 @@ Testnet ETH is available from:
 * Rinkeby: [https://faucet.rinkeby.io/](https://faucet.rinkeby.io)
 
 ```bash
-yarn account
+yarn run account
 ```
 
 ![](../../.gitbook/assets/106749192-36c15e80-65f4-11eb-8365-64f66569c899.png)
@@ -77,7 +77,7 @@ ToDo: gather the screen shots, show how I designed a dice roll with the RNG resu
 
 
 
-### Using an Aggregator or Price Feed
+### Using an Aggregator
 
 
 
