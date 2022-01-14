@@ -17,7 +17,7 @@
   * [🧰 React](toolkit/the-scaffold-eth-stack/react.md)
   * [🛠 Ethers](toolkit/the-scaffold-eth-stack/ethers.js.md)
   * [🐜 Ant Design](toolkit/the-scaffold-eth-stack/ant-design.md)
-* [🧰 Scaffold-eth Tools, Components & Services](toolkit/scaffold-eth-toolbox/README.md)
+* [🧰 Libraries, Components & Services](toolkit/scaffold-eth-toolbox/README.md)
   * [🏺 Eth-components](toolkit/scaffold-eth-toolbox/eth-components.md)
   * [💁 Eth-services](toolkit/scaffold-eth-toolbox/eth-services.md)
   * [🏗 Scaffold-eth commands](toolkit/scaffold-eth-toolbox/scaffold-eth-commands.md)

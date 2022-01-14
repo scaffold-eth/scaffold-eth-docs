@@ -2,13 +2,13 @@
 description: Tools, components and services that can be used within Scaffold-Eth 🏗
 ---
 
-# 🧰 Scaffold-eth Tools, Components & Services
+# 🧰 Libraries, Components & Services
 
 ## Eth-Hooks
 
-[Eth-Hooks v2](https://docs.scaffoldeth.io/scaffold-eth-libraries/)
+[Eth-Hooks v4](https://docs.scaffoldeth.io/scaffold-eth-libraries/v/eth-hooks-v3/)
 
-[Eth-Hooks v3](https://docs.scaffoldeth.io/scaffold-eth-libraries/v/eth-hooks-v3/)
+[Eth-Hooks v2](https://docs.scaffoldeth.io/scaffold-eth-libraries/)
 
 ## [Eth-Components](eth-components.md)
 
