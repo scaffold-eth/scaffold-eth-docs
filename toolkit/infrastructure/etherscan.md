@@ -1,6 +1,6 @@
 # 🔎 Etherscan
 
-`hardhat-deploy` lets you easily verify contracts on Etherscan, and we have added a helper script to `/packages/hardhat` to let you do that and we have abstracted the actual command away from the user. Please see the packages/hardhat/package.json and look for the 'verify' command, you will see the hardhat command in there (hardhat etherscan-verify --api-key \<your\_key>).
+`hardhat-deploy` lets you easily verify contracts on Etherscan, and we have added a helper script to `/packages/hardhat` to let you do that and we have abstracted the actual command away from the user. Please see the packages/hardhat/package.json and look for the 'verify' command, you will see the hardhat command in there (hardhat etherscan-verify --api-key \<your\_key>). You can pass the --network parameter.
 
 Simply run:
 
