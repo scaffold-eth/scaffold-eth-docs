@@ -11,6 +11,8 @@ yarn verify --network <network_of_choice>
 
 {% hint style="warning" %}
 Make sure to change the script so it uses your own Etherscan API key for the `"verify"` command in `packages/hardhat/package.json`&#x20;
+
+"hardhat etherscan-verify --api-key \<your\_key>"
 {% endhint %}
 
 And all hardhat's deployed contracts with matching ABIs for that network will be automatically verified.&#x20;
