@@ -81,7 +81,7 @@ Learn more about building on Optimism [here](https://community.optimism.io/docs/
 
 ## Graph Node
 
-`graph-node` lets you [run a node locally](https://thegraph.com/docs/quick-start#local-development).
+`graph-node` lets you [run a node locally](https://thegraph.academy/developers/local-development/).
 
 ```text
 run-graph-node // runs the graph node
