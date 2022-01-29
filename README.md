@@ -31,7 +31,7 @@ Scaffold-eth is not a product itself but more of a combination or stack of other
 The Scaffold-eth documentation is broken up into **three main sections**. 
 
 \
-**1.** **Getting Started **- In the **Getting Started** section we start by going over how to install and run the sample project included with Scaffold-eth, as well as key pieces you can tweak to start learning how it works and how it interacts with Hardhat and React. The goal here is to get new developers up and running on Scaffoled-eth lightning fast. ⚡️
+**1.** **Getting Started **- In the **Getting Started** section we start by going over how to install and run the sample project included with Scaffold-eth, as well as key pieces you can tweak to start learning how it works and how it interacts with Hardhat and React. The goal here is to get new developers up and running on Scaffold-eth lightning fast. ⚡️
 
 ![As you edit your smart contract the frontend auto adapts](.gitbook/assets/2021-09-28-11.11.24.jpg)
 
