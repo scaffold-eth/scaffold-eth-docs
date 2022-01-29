@@ -4,7 +4,7 @@ Now that you have a fresh installation of Scaffold-eth, you are ready to start t
 
 ## Running the starter project
 
-Scaffold-eth comes with a small sample to help you get started and learn what features it offers. There are 3 steps you have to take to get this starter project running, which is something you will always have to do when working with Scaffold-eth (or when building and testing any a dApp, for that matter).
+Scaffold-eth comes with a small sample to help you get started and learn what features it offers. There are 3 steps you have to take to get this starter project running, which is something you will always have to do when working with Scaffold-eth (or when building and testing any dApp, for that matter).
 
 ### **Step 1: Start a local network with Hardhat Network**
 
@@ -39,7 +39,7 @@ Read along if you want to know more about what we did just now.&#x20;
 
 ### 1. Start a local network
 
-Scaffold-eth ships with Hardhat, which as of the date of this writing, it has become development the de facto environment to compile, deploy, test, and debug Ethereum software.
+Scaffold-eth ships with Hardhat, which as of the date of this writing, has become the de facto environment to compile, deploy, test, and debug Ethereum software.
 
 Hardhat comes built-in with Hardhat Network, a local Ethereum network designed for development.&#x20;
 
@@ -92,13 +92,13 @@ cd scaffold-eth
 yarn start
 ```
 
-Once the development server starts and your app is done compiling it should be running in https://localhost:3000 and if you open that url on your browser, you should see the following:
+Once the development server starts and your app is done compiling it should be running in https://localhost:3000. If you open that url in your browser you should see the following:
 
 ![](../.gitbook/assets/screen-shot-2021-06-24-at-11.27.55-am.png)
 
 The starter project comes with a few pre-made views, but the ones you should focus on for now are the YourContract section and the ExampleUI section which showcase the two ways you can work with Scaffold-eth to build UIs.
 
-**The YourContract section **is using one of the many handy React components Scaffold-eth offers, the `<Contract />` component, which given a contract name you have compiled, it will parse it and create a UI for it exposing all the public variables and methods it has. This is very useful when you want to quickly test your contracts but offers no flexibility in terms of good UX.
+**The YourContract section** uses the `<Contract />` component, one of the many handy React components Scaffold-eth offers. The `<Contract />` component takes your compiled contract, parses it, and creates a simple UI that exposes all of your contracts's public variables and methods. This is very useful for quickly testing your contracts, but offers no flexibility in terms of good UX.
 
 In this case, `YourContract.sol` has a `purpose` public string which anyone can change by calling `setPurpose(string)`.&#x20;
 
@@ -111,16 +111,16 @@ In this case, `YourContract.sol` has a `purpose` public string which anyone can 
 ![](../.gitbook/assets/screen-shot-2021-06-24-at-11.40.42-am.png)
 
 {% hint style="success" %}
-Congratulations! You now have a running dApp running locally which can interact with your deployed smart contract.&#x20;
+Congratulations! You now have a dApp running locally which can interact with your deployed smart contract.&#x20;
 {% endhint %}
 
 ### Interacting with your app and contracts
 
-If this is your first time with Scaffold-eth and/or Ethereum development, you might have notices that if you want to actually interact with your contract by changing the `purpose` via `setPurpose(string)` you are getting an error like this:
+If this is your first time with Scaffold-eth and/or Ethereum development, you might have noticed that when you actually interact with your contract by changing the `purpose` via `setPurpose(string)`, you get an error like this:
 
 ![Can't execute this, not enough funds.](../.gitbook/assets/screen-shot-2021-06-24-at-11.46.55-am.png)
 
-The reason why you are getting that error is because the account you are "logged" with actually doesn't have any ether to pay for gas. But don't worry, there's a few ways to easily fix that.
+The reason why you are getting that error is because the account you are "logged" with actually doesn't have any ether to pay for gas. But don't worry, there are a few ways to easily fix that.
 
 #### Burner Wallets
 
