@@ -12,7 +12,7 @@ yarn install
 
 `yarn start` starts a react frontend server at `localhost:3000`
 
-`yarn complile` compiles any smart contracts located at `packages/hardhat/contracts/`
+`yarn compile` compiles any smart contracts located at `packages/hardhat/contracts/`
 
 `yarn deploy` deploys any smart contracts that have been specified in `00_deploy_your_contract.js` located at `packages/hardhat/deploy/`
 
