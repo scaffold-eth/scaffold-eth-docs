@@ -150,13 +150,11 @@ In this guide we covered the following topics:
 
 Now that we covered the basics of Scaffold-eth, you should try to familiarize yourself with Solidity and the deployment process, as well as with the different components and hooks Scaffold-eth offers. **Here are some ideas:**
 
-* :closed\_lock\_with\_key: Edit your smart contract `YourContract.sol` in `packages/hardhat/contracts`
+* :closed\_lock\_with\_key: Edit your smart contract `YourContract.sol` in `packages/hardhat/contracts`. Make small changes to it and watch your app auto update!
 * :pencil: Edit your frontend `App.jsx` in `packages/react-app/src`
 * :briefcase: Edit and add your deployment scripts in `packages/hardhat/deploy` - we are using [hardhat-deploy](https://www.npmjs.com/package/hardhat-deploy)
-* :pencil2: Make small changes to `YourContract.sol` and watch your app auto update!
 * :repeat: You can `yarn deploy` any time and get a fresh new contract in the frontend
 * :construction\_worker: Look for the [HardHat](https://hardhat.org) console.log() output in the `yarn chain` terminal
-* :alembic: Spend some time tinkering with `YourContract.sol`
 
 {% hint style="info" %}
 Don't forget to check the [Examples and Tutorials](../examples-and-tutorials/overview.md) section which has a bunch of tutorials and sample projects built with Scaffold-eth which you can extend or use as a base for your own projects!
