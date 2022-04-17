@@ -4,7 +4,7 @@ description: Build you own decentralized token exchange 📈
 
 # 📉 Minimum Viable DEX
 
-### 🚩 Challenge 3: Minimum Viable Exchange
+### 🚩 Challenge 5: Minimum Viable Exchange
 
 This challenge will provide a tutorial to help you build/understand a simple decentralized exchange. This readme is an updated version of the [original tutorial](https://medium.com/@austin\_48503/%EF%B8%8F-minimum-viable-exchange-d84f30bd0c90). Please read the intro for a background on what we are building!
 
