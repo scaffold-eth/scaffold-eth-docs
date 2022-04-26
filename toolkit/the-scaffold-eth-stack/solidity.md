@@ -69,7 +69,7 @@ In this **Solidity** section, we present you with some tips and learning materia
 
 🧬 Next learn about [structs](https://solidity-by-example.org/0.6/structs/) in Solidity.
 
-🗳 Maybe an make an array `YourStructName[] public proposals;` that could call be voted on with `function vote() public {}`
+🗳 Maybe make an array `YourStructName[] public proposals;` that could call and be voted on with `function vote() public {}`
 
 🔭 Your dev environment is perfect for _testing assumptions_ and learning by prototyping.
 
